@@ -1,5 +1,9 @@
 # Fly-Stroke: fly memory experiment
 
+Explore the results visually at **[Fly Circuit](https://fly-circuit-explorer.vercel.app)**:
+toggle circuit changes, compare individual runs, and read the plain-language
+explanation. Website source and local checks are in [website/](website/README.md).
+
 **Latest completed experiment:** the published [adfly-connectome model](https://github.com/taehojo/adfly-connectome)
 ran all **166,700 neurons** across 54 paired component trials, with 54 original-graph
 comparison trials and six complete-restoration checks. Combined amyloid-inspired
