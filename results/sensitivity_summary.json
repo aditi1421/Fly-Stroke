@@ -1,0 +1,114 @@
+[
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "persistent",
+    "valid_parameter_draws": 100,
+    "pattern_matches": 100,
+    "immediate_ratio_p10_p50_p90": [
+      0.9994844000275758,
+      1.0,
+      1.0
+    ],
+    "two_hour_ratio_p10_p50_p90": [
+      0.5607618252187022,
+      0.6086545496847979,
+      0.6444299485495706
+    ]
+  },
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "waiting",
+    "valid_parameter_draws": 100,
+    "pattern_matches": 100,
+    "immediate_ratio_p10_p50_p90": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "two_hour_ratio_p10_p50_p90": [
+      0.6416339354667911,
+      0.6838188874016957,
+      0.7160334141792111
+    ]
+  },
+  {
+    "mechanism": "plasticity",
+    "phase": "learning",
+    "valid_parameter_draws": 100,
+    "pattern_matches": 30,
+    "immediate_ratio_p10_p50_p90": [
+      0.7278331424067376,
+      0.8510712347821995,
+      0.9902925673422229
+    ],
+    "two_hour_ratio_p10_p50_p90": [
+      0.6390132194574086,
+      0.6525891449608221,
+      0.6617884445677177
+    ]
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "learning",
+    "valid_parameter_draws": 100,
+    "pattern_matches": 0,
+    "immediate_ratio_p10_p50_p90": [
+      0.2731324224872358,
+      0.40366134923930586,
+      0.5136267078760437
+    ],
+    "two_hour_ratio_p10_p50_p90": [
+      0.8886475450189386,
+      1.0000000001040195,
+      1.0000000012264283
+    ]
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "waiting",
+    "valid_parameter_draws": 100,
+    "pattern_matches": 0,
+    "immediate_ratio_p10_p50_p90": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "two_hour_ratio_p10_p50_p90": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "mechanism": "transmission",
+    "phase": "learning",
+    "valid_parameter_draws": 100,
+    "pattern_matches": 0,
+    "immediate_ratio_p10_p50_p90": [
+      0.6827383596133859,
+      0.7401090579770944,
+      0.780211104514085
+    ],
+    "two_hour_ratio_p10_p50_p90": [
+      0.8520176260624955,
+      0.8701188599477628,
+      0.8823845927569565
+    ]
+  },
+  {
+    "mechanism": "transmission",
+    "phase": "recall",
+    "valid_parameter_draws": 100,
+    "pattern_matches": 50,
+    "immediate_ratio_p10_p50_p90": [
+      0.8410736614046649,
+      0.9000239317973312,
+      0.9108769121943876
+    ],
+    "two_hour_ratio_p10_p50_p90": [
+      0.7499999999999999,
+      0.75,
+      0.7500000000000001
+    ]
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "mechanism": "transmission",
+    "phase": "learning",
+    "strength": 0.1,
+    "immediate_ratio": 0.8955799969651744,
+    "delayed_ratio": 0.9481541657146967,
+    "reserved_delay_ratio": 0.9481541657223209,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "transmission",
+    "phase": "learning",
+    "strength": 0.25,
+    "immediate_ratio": 0.7408577551043841,
+    "delayed_ratio": 0.8708768963412952,
+    "reserved_delay_ratio": 0.8708768963602852,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "transmission",
+    "phase": "learning",
+    "strength": 0.5,
+    "immediate_ratio": 0.48800246886225035,
+    "delayed_ratio": 0.7433821958000848,
+    "reserved_delay_ratio": 0.743382195837828,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "transmission",
+    "phase": "waiting",
+    "strength": 0.1,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "transmission",
+    "phase": "waiting",
+    "strength": 0.25,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "transmission",
+    "phase": "waiting",
+    "strength": 0.5,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "transmission",
+    "phase": "recall",
+    "strength": 0.1,
+    "immediate_ratio": 0.961018200029173,
+    "delayed_ratio": 0.9,
+    "reserved_delay_ratio": 0.8999999999999994,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "transmission",
+    "phase": "recall",
+    "strength": 0.25,
+    "immediate_ratio": 0.9025455000729327,
+    "delayed_ratio": 0.75,
+    "reserved_delay_ratio": 0.7499999999999996,
+    "matches_exploratory_pattern": true,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "transmission",
+    "phase": "recall",
+    "strength": 0.5,
+    "immediate_ratio": 0.6523795927422712,
+    "delayed_ratio": 0.5000000000000001,
+    "reserved_delay_ratio": 0.49999999999999967,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "transmission",
+    "phase": "persistent",
+    "strength": 0.1,
+    "immediate_ratio": 0.8670401972978302,
+    "delayed_ratio": 0.8533387491432272,
+    "reserved_delay_ratio": 0.8533387491500887,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "transmission",
+    "phase": "persistent",
+    "strength": 0.25,
+    "immediate_ratio": 0.7081888164012209,
+    "delayed_ratio": 0.6531576722559715,
+    "reserved_delay_ratio": 0.653157672270214,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "transmission",
+    "phase": "persistent",
+    "strength": 0.5,
+    "immediate_ratio": 0.4849673739001987,
+    "delayed_ratio": 0.3716910979000426,
+    "reserved_delay_ratio": 0.3716910979189137,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "plasticity",
+    "phase": "learning",
+    "strength": 0.1,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 0.8533387491432273,
+    "reserved_delay_ratio": 0.8533387491500894,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "plasticity",
+    "phase": "learning",
+    "strength": 0.25,
+    "immediate_ratio": 0.8522134722587237,
+    "delayed_ratio": 0.6531576722559717,
+    "reserved_delay_ratio": 0.653157672270214,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "plasticity",
+    "phase": "learning",
+    "strength": 0.5,
+    "immediate_ratio": 0.48496737390019906,
+    "delayed_ratio": 0.3716910979000427,
+    "reserved_delay_ratio": 0.37169109791891386,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "plasticity",
+    "phase": "waiting",
+    "strength": 0.1,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "plasticity",
+    "phase": "waiting",
+    "strength": 0.25,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "plasticity",
+    "phase": "waiting",
+    "strength": 0.5,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "plasticity",
+    "phase": "recall",
+    "strength": 0.1,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "plasticity",
+    "phase": "recall",
+    "strength": 0.25,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "plasticity",
+    "phase": "recall",
+    "strength": 0.5,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "plasticity",
+    "phase": "persistent",
+    "strength": 0.1,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 0.8533387491432273,
+    "reserved_delay_ratio": 0.8533387491500894,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "plasticity",
+    "phase": "persistent",
+    "strength": 0.25,
+    "immediate_ratio": 0.8522134722587237,
+    "delayed_ratio": 0.6531576722559717,
+    "reserved_delay_ratio": 0.653157672270214,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "plasticity",
+    "phase": "persistent",
+    "strength": 0.5,
+    "immediate_ratio": 0.48496737390019906,
+    "delayed_ratio": 0.3716910979000427,
+    "reserved_delay_ratio": 0.37169109791891386,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "learning",
+    "strength": 0.5,
+    "immediate_ratio": 0.8470582525190227,
+    "delayed_ratio": 1.0000000000000002,
+    "reserved_delay_ratio": 0.9999999999999993,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "learning",
+    "strength": 2.0,
+    "immediate_ratio": 0.38823301007609157,
+    "delayed_ratio": 1.0000000003170337,
+    "reserved_delay_ratio": 1.000000000317033,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "learning",
+    "strength": 5.0,
+    "immediate_ratio": 0.0,
+    "delayed_ratio": 0.3763611559535413,
+    "reserved_delay_ratio": 1.0000000014652974,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "waiting",
+    "strength": 0.5,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "waiting",
+    "strength": 2.0,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "waiting",
+    "strength": 5.0,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "recall",
+    "strength": 0.5,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "recall",
+    "strength": 2.0,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "recall",
+    "strength": 5.0,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "persistent",
+    "strength": 0.5,
+    "immediate_ratio": 0.8470582525190227,
+    "delayed_ratio": 1.0000000000000002,
+    "reserved_delay_ratio": 0.9999999999999993,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "persistent",
+    "strength": 2.0,
+    "immediate_ratio": 0.38823301007609157,
+    "delayed_ratio": 1.0000000003170337,
+    "reserved_delay_ratio": 1.000000000317033,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "tonic_dopamine",
+    "phase": "persistent",
+    "strength": 5.0,
+    "immediate_ratio": 0.0,
+    "delayed_ratio": 0.3763611559535413,
+    "reserved_delay_ratio": 1.0000000014652974,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": false
+  },
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "learning",
+    "strength": 0.1,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 0.9614150653980682,
+    "reserved_delay_ratio": 0.9614150653946234,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": true
+  },
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "learning",
+    "strength": 0.25,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 0.8901035780511812,
+    "reserved_delay_ratio": 0.8901035780420415,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": true
+  },
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "learning",
+    "strength": 0.5,
+    "immediate_ratio": 0.9331634384824666,
+    "delayed_ratio": 0.7151997461378141,
+    "reserved_delay_ratio": 0.7151997461185441,
+    "matches_exploratory_pattern": true,
+    "descriptive_benchmark_only": true
+  },
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "waiting",
+    "strength": 0.1,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 0.8793072412513759,
+    "reserved_delay_ratio": 0.8204732647043127,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": true
+  },
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "waiting",
+    "strength": 0.25,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 0.6798638495008172,
+    "reserved_delay_ratio": 0.552323220656937,
+    "matches_exploratory_pattern": true,
+    "descriptive_benchmark_only": true
+  },
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "waiting",
+    "strength": 0.5,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 0.3142431698026368,
+    "reserved_delay_ratio": 0.16849224091980358,
+    "matches_exploratory_pattern": true,
+    "descriptive_benchmark_only": true
+  },
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "recall",
+    "strength": 0.1,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": true
+  },
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "recall",
+    "strength": 0.25,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": true
+  },
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "recall",
+    "strength": 0.5,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 1.0,
+    "reserved_delay_ratio": 1.0,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": true
+  },
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "persistent",
+    "strength": 0.1,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 0.8453792288519758,
+    "reserved_delay_ratio": 0.7888153574402338,
+    "matches_exploratory_pattern": false,
+    "descriptive_benchmark_only": true
+  },
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "persistent",
+    "strength": 0.25,
+    "immediate_ratio": 1.0,
+    "delayed_ratio": 0.6051492450248984,
+    "reserved_delay_ratio": 0.4916248749424362,
+    "matches_exploratory_pattern": true,
+    "descriptive_benchmark_only": true
+  },
+  {
+    "mechanism": "decay_benchmark",
+    "phase": "persistent",
+    "strength": 0.5,
+    "immediate_ratio": 0.9331634384824666,
+    "delayed_ratio": 0.22474663526287225,
+    "reserved_delay_ratio": 0.12050560792878304,
+    "matches_exploratory_pattern": true,
+    "descriptive_benchmark_only": true
+  }
+]

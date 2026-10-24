@@ -1,0 +1,18 @@
+{
+  "training_bouts": 6,
+  "training_isi_seconds": 135.0,
+  "wait_seconds": [0.0, 300.0, 1800.0, 7200.0, 21600.0, 86400.0],
+  "primary_valence": 0.0,
+  "sensitivity_valences": [-3.0, 3.0],
+  "fractional_strengths": [0.1, 0.25, 0.5],
+  "tonic_dopamine_hz": [0.5, 2.0, 5.0],
+  "phases": ["learning", "waiting", "recall", "persistent"],
+  "primary_neuron": "MBON alpha3",
+  "parameter_sample_count": 100,
+  "sample_seed": 20261024,
+  "primary_delay_seconds": 7200.0,
+  "reserved_delay_seconds": 21600.0,
+  "preserved_immediate_ratio": [0.9, 1.1],
+  "impaired_delayed_ratio": 0.8,
+  "minimum_healthy_signal_hz": 1.0
+}

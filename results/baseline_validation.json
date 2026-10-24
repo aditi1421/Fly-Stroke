@@ -1,0 +1,10 @@
+{
+  "reference": "upstream/matlab_code/figure_code_examples/figures/figure5d27-Mar-2023_3modules.fig",
+  "source_commit": "5d7c08a9a88f923169a0c3008aca68af421e9a7f",
+  "values_compared": 1944,
+  "max_absolute_error_hz": 7.105427357601002e-15,
+  "rmse_hz": 1.6698401506929994e-15,
+  "tolerance_hz": 1e-08,
+  "passed": true,
+  "scope": "Saved Figure 5d numeric reproduction; not an independent biological validation."
+}

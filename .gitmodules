@@ -1,0 +1,3 @@
+[submodule "upstream"]
+	path = upstream
+	url = https://github.com/schnitzer-lab/Luo_Huang_2024_MB_model.git
