@@ -3,3 +3,5 @@ scipy==1.15.3
 matplotlib==3.10.7
 pydantic==2.11.7
 pytest==9.0.2
+# Whole-brain extension: install via whole_brain_upstream/environment_full.yml
+# brian2, pandas, pyarrow and joblib

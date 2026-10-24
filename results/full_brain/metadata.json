@@ -1,0 +1,30 @@
+{
+  "neuron_count": 138639,
+  "connectivity_file": "whole_brain_upstream/Connectivity_783.parquet",
+  "conditions": [
+    {
+      "name": "healthy",
+      "synapse_scale": 1.0,
+      "excitability_scale": 1.0
+    },
+    {
+      "name": "amyloid_synaptic_dysfunction",
+      "synapse_scale": 0.75,
+      "excitability_scale": 1.0
+    },
+    {
+      "name": "amyloid_plus_hyperexcitability",
+      "synapse_scale": 0.75,
+      "excitability_scale": 1.15
+    }
+  ],
+  "config": {
+    "seconds": 0.01,
+    "repeats": 1,
+    "seed": 20261024,
+    "stimulus_index": 0,
+    "completeness": "/Users/aditi/Fly-Stroke/whole_brain_upstream/Completeness_783.csv",
+    "connectivity": "/Users/aditi/Fly-Stroke/whole_brain_upstream/Connectivity_783.parquet"
+  },
+  "interpretation": "Exploratory perturbations; no AD parameters fitted; no human clinical inference."
+}

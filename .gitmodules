@@ -1,3 +1,6 @@
 [submodule "upstream"]
 	path = upstream
 	url = https://github.com/schnitzer-lab/Luo_Huang_2024_MB_model.git
+[submodule "whole_brain_upstream"]
+	path = whole_brain_upstream
+	url = https://github.com/philshiu/Drosophila_brain_model.git

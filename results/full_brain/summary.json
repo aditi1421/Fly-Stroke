@@ -1,0 +1,32 @@
+{
+  "connectome": "FlyWire FAFB v783",
+  "neuron_count": 138639,
+  "run_duration_seconds": 0.01,
+  "conditions": [
+    {
+      "condition": "amyloid_plus_hyperexcitability",
+      "neurons": 138639,
+      "active_neurons": 0,
+      "total_spikes": 0,
+      "max_rate_hz": 0.0,
+      "mean_rate_hz_all_neurons": 0.0
+    },
+    {
+      "condition": "amyloid_synaptic_dysfunction",
+      "neurons": 138639,
+      "active_neurons": 1,
+      "total_spikes": 1,
+      "max_rate_hz": 100.0,
+      "mean_rate_hz_all_neurons": 0.000721297758927863
+    },
+    {
+      "condition": "healthy",
+      "neurons": 138639,
+      "active_neurons": 1,
+      "total_spikes": 1,
+      "max_rate_hz": 100.0,
+      "mean_rate_hz_all_neurons": 0.000721297758927863
+    }
+  ],
+  "interpretation": "Smoke run verifies full network construction and condition execution; 10 ms is too short for disease conclusions."
+}

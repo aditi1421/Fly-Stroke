@@ -24,6 +24,8 @@ For an existing clone, first run `git submodule update --init --recursive`. The 
 
 The repository currently studies memory-circuit disturbances motivated by Alzheimer's research. A stroke model has not been implemented.
 
+The complete-brain extension is documented in [WHOLE_BRAIN.md](WHOLE_BRAIN.md). It uses the published 138,639-neuron FlyWire model and compares healthy and explicitly exploratory Alzheimer’s-inspired perturbations.
+
 The baseline check compares 1,944 saved reference values. The experiment uses the authors' fitted parameters rather than refitting them. Configuration, sampled parameter indices, source commit and hashes are recorded with the results. See [METHODS.md](METHODS.md) for definitions and limitations.
 
 ## Source and license
