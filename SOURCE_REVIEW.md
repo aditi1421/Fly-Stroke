@@ -1,5 +1,10 @@
 # Source review — 24 October 2026
 
+Follow-up: [Alzheimer's mechanism evidence and experiment design](ALZHEIMERS_EXPERIMENT.md)
+identifies biological targets and a directly relevant October 2026 MaleCNS
+amyloid-model preprint with public code. This was found after the baseline run;
+its disease model has not been installed or reproduced here.
+
 ## Which Google project?
 
 The recent fly announcement is **MaleCNS**, a collaboration involving Google
