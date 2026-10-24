@@ -1,7 +1,7 @@
 # Fly-Stroke: fly memory experiment
 
 Explore the results visually at **[Fly Circuit](https://fly-circuit-explorer.vercel.app)**:
-toggle circuit changes, compare individual runs, and read the plain-language
+toggle circuit changes, compare brain-shaped schematics, and read the plain-language
 explanation. Website source and local checks are in [website/](website/README.md).
 
 **Latest completed experiment:** the published [adfly-connectome model](https://github.com/taehojo/adfly-connectome)
