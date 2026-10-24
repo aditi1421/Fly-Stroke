@@ -1,0 +1,1564 @@
+{
+  "reference": {
+    "readouts_sha256": "c2140b25c640052400316124aa20385ed4fa9fd1d891c07c4a2dcfb36af663e4",
+    "stimulus": {
+      "all": {
+        "baseline": {
+          "mean_spikes": 1215.5,
+          "spikes_per_trial": [
+            1064,
+            1004,
+            1162,
+            1117,
+            1185,
+            1761
+          ],
+          "paired_percent_baseline_mean": 100.0,
+          "paired_percent_baseline_range": [
+            100.0,
+            100.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ]
+        },
+        "excitability_only": {
+          "mean_spikes": 1383.1666666666667,
+          "spikes_per_trial": [
+            1104,
+            1119,
+            1381,
+            1126,
+            1297,
+            2272
+          ],
+          "paired_percent_baseline_mean": 112.22253460973893,
+          "paired_percent_baseline_range": [
+            100.80572963294539,
+            129.0176036342987
+          ],
+          "paired_percent_baseline_per_trial": [
+            103.7593984962406,
+            111.45418326693228,
+            118.84681583476764,
+            100.80572963294539,
+            109.45147679324894,
+            129.0176036342987
+          ]
+        },
+        "contact_loss_only": {
+          "mean_spikes": 1204.5,
+          "spikes_per_trial": [
+            1064,
+            1023,
+            1122,
+            1095,
+            1217,
+            1706
+          ],
+          "paired_percent_baseline_mean": 99.34295411050097,
+          "paired_percent_baseline_range": [
+            96.55765920826161,
+            102.70042194092827
+          ],
+          "paired_percent_baseline_per_trial": [
+            100.0,
+            101.89243027888446,
+            96.55765920826161,
+            98.03043867502238,
+            102.70042194092827,
+            96.87677455990914
+          ]
+        },
+        "cell_silencing_only": {
+          "mean_spikes": 1202.5,
+          "spikes_per_trial": [
+            1040,
+            973,
+            1289,
+            1044,
+            1166,
+            1703
+          ],
+          "paired_percent_baseline_mean": 99.02563703608416,
+          "paired_percent_baseline_range": [
+            93.46463742166517,
+            110.92943201376936
+          ],
+          "paired_percent_baseline_per_trial": [
+            97.74436090225564,
+            96.91235059760956,
+            110.92943201376936,
+            93.46463742166517,
+            98.39662447257383,
+            96.70641680863146
+          ]
+        },
+        "combined": {
+          "mean_spikes": 1248.5,
+          "spikes_per_trial": [
+            1070,
+            1035,
+            1300,
+            1111,
+            1258,
+            1717
+          ],
+          "paired_percent_baseline_mean": 103.10870650339393,
+          "paired_percent_baseline_range": [
+            97.50141964792732,
+            111.87607573149742
+          ],
+          "paired_percent_baseline_per_trial": [
+            100.56390977443608,
+            103.08764940239044,
+            111.87607573149742,
+            99.46284691136974,
+            106.16033755274262,
+            97.50141964792732
+          ]
+        },
+        "restore_excitability": {
+          "mean_spikes": 1273.0,
+          "spikes_per_trial": [
+            1024,
+            989,
+            1250,
+            1090,
+            1159,
+            2126
+          ],
+          "paired_percent_baseline_mean": 103.07255089235763,
+          "paired_percent_baseline_range": [
+            96.2406015037594,
+            120.72685973878478
+          ],
+          "paired_percent_baseline_per_trial": [
+            96.2406015037594,
+            98.50597609561753,
+            107.57314974182444,
+            97.58281110116383,
+            97.80590717299577,
+            120.72685973878478
+          ]
+        },
+        "restore_contacts": {
+          "mean_spikes": 1231.5,
+          "spikes_per_trial": [
+            1225,
+            1056,
+            1420,
+            1046,
+            1249,
+            1393
+          ],
+          "paired_percent_baseline_mean": 103.44354579426827,
+          "paired_percent_baseline_range": [
+            79.10278250993754,
+            122.20309810671256
+          ],
+          "paired_percent_baseline_per_trial": [
+            115.13157894736842,
+            105.1792828685259,
+            122.20309810671256,
+            93.64368845120859,
+            105.40084388185655,
+            79.10278250993754
+          ]
+        },
+        "restore_cells": {
+          "mean_spikes": 1296.0,
+          "spikes_per_trial": [
+            1118,
+            1084,
+            1434,
+            1118,
+            1311,
+            1711
+          ],
+          "paired_percent_baseline_mean": 107.38906231605573,
+          "paired_percent_baseline_range": [
+            97.16070414537195,
+            123.407917383821
+          ],
+          "paired_percent_baseline_per_trial": [
+            105.07518796992481,
+            107.96812749003983,
+            123.407917383821,
+            100.08952551477171,
+            110.63291139240506,
+            97.16070414537195
+          ]
+        }
+      },
+      "KC": {
+        "baseline": {
+          "mean_spikes": 255.66666666666666,
+          "spikes_per_trial": [
+            205,
+            246,
+            340,
+            211,
+            321,
+            211
+          ],
+          "paired_percent_baseline_mean": 100.0,
+          "paired_percent_baseline_range": [
+            100.0,
+            100.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ]
+        },
+        "excitability_only": {
+          "mean_spikes": 326.5,
+          "spikes_per_trial": [
+            245,
+            330,
+            404,
+            271,
+            432,
+            277
+          ],
+          "paired_percent_baseline_mean": 127.79619084331559,
+          "paired_percent_baseline_range": [
+            118.82352941176471,
+            134.57943925233644
+          ],
+          "paired_percent_baseline_per_trial": [
+            119.51219512195122,
+            134.14634146341464,
+            118.82352941176471,
+            128.43601895734596,
+            134.57943925233644,
+            131.27962085308056
+          ]
+        },
+        "contact_loss_only": {
+          "mean_spikes": 259.5,
+          "spikes_per_trial": [
+            202,
+            246,
+            329,
+            227,
+            338,
+            215
+          ],
+          "paired_percent_baseline_mean": 101.67931906495863,
+          "paired_percent_baseline_range": [
+            96.76470588235294,
+            107.58293838862559
+          ],
+          "paired_percent_baseline_per_trial": [
+            98.53658536585365,
+            100.0,
+            96.76470588235294,
+            107.58293838862559,
+            105.29595015576324,
+            101.89573459715639
+          ]
+        },
+        "cell_silencing_only": {
+          "mean_spikes": 218.16666666666666,
+          "spikes_per_trial": [
+            171,
+            223,
+            273,
+            175,
+            296,
+            171
+          ],
+          "paired_percent_baseline_mean": 85.09200649295406,
+          "paired_percent_baseline_range": [
+            80.29411764705883,
+            92.21183800623054
+          ],
+          "paired_percent_baseline_per_trial": [
+            83.41463414634147,
+            90.65040650406505,
+            80.29411764705883,
+            82.93838862559242,
+            92.21183800623054,
+            81.04265402843602
+          ]
+        },
+        "combined": {
+          "mean_spikes": 286.1666666666667,
+          "spikes_per_trial": [
+            211,
+            278,
+            332,
+            249,
+            396,
+            251
+          ],
+          "paired_percent_baseline_mean": 112.31888813316351,
+          "paired_percent_baseline_range": [
+            97.6470588235294,
+            123.3644859813084
+          ],
+          "paired_percent_baseline_per_trial": [
+            102.92682926829268,
+            113.00813008130082,
+            97.6470588235294,
+            118.00947867298578,
+            123.3644859813084,
+            118.95734597156398
+          ]
+        },
+        "restore_excitability": {
+          "mean_spikes": 225.16666666666666,
+          "spikes_per_trial": [
+            170,
+            213,
+            286,
+            198,
+            309,
+            175
+          ],
+          "paired_percent_baseline_mean": 87.77812926809992,
+          "paired_percent_baseline_range": [
+            82.92682926829268,
+            96.26168224299066
+          ],
+          "paired_percent_baseline_per_trial": [
+            82.92682926829268,
+            86.58536585365853,
+            84.11764705882354,
+            93.8388625592417,
+            96.26168224299066,
+            82.93838862559242
+          ]
+        },
+        "restore_contacts": {
+          "mean_spikes": 284.6666666666667,
+          "spikes_per_trial": [
+            236,
+            282,
+            350,
+            236,
+            376,
+            228
+          ],
+          "paired_percent_baseline_mean": 111.62274061466648,
+          "paired_percent_baseline_range": [
+            102.94117647058823,
+            117.13395638629284
+          ],
+          "paired_percent_baseline_per_trial": [
+            115.1219512195122,
+            114.63414634146342,
+            102.94117647058823,
+            111.84834123222748,
+            117.13395638629284,
+            108.05687203791469
+          ]
+        },
+        "restore_cells": {
+          "mean_spikes": 327.5,
+          "spikes_per_trial": [
+            250,
+            318,
+            398,
+            256,
+            451,
+            292
+          ],
+          "paired_percent_baseline_mean": 128.08206965042692,
+          "paired_percent_baseline_range": [
+            117.05882352941177,
+            140.49844236760126
+          ],
+          "paired_percent_baseline_per_trial": [
+            121.95121951219512,
+            129.26829268292684,
+            117.05882352941177,
+            121.32701421800948,
+            140.49844236760126,
+            138.38862559241707
+          ]
+        }
+      },
+      "MBON": {
+        "baseline": {
+          "mean_spikes": 11.166666666666666,
+          "spikes_per_trial": [
+            10,
+            10,
+            19,
+            8,
+            12,
+            8
+          ],
+          "paired_percent_baseline_mean": 100.0,
+          "paired_percent_baseline_range": [
+            100.0,
+            100.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ]
+        },
+        "excitability_only": {
+          "mean_spikes": 16.0,
+          "spikes_per_trial": [
+            12,
+            17,
+            24,
+            9,
+            21,
+            13
+          ],
+          "paired_percent_baseline_mean": 144.38596491228068,
+          "paired_percent_baseline_range": [
+            112.5,
+            175.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            120.0,
+            170.0,
+            126.3157894736842,
+            112.5,
+            175.0,
+            162.5
+          ]
+        },
+        "contact_loss_only": {
+          "mean_spikes": 5.333333333333333,
+          "spikes_per_trial": [
+            2,
+            5,
+            10,
+            1,
+            8,
+            6
+          ],
+          "paired_percent_baseline_mean": 46.13304093567251,
+          "paired_percent_baseline_range": [
+            12.5,
+            75.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            20.0,
+            50.0,
+            52.63157894736842,
+            12.5,
+            66.66666666666667,
+            75.0
+          ]
+        },
+        "cell_silencing_only": {
+          "mean_spikes": 8.333333333333334,
+          "spikes_per_trial": [
+            5,
+            7,
+            16,
+            2,
+            10,
+            10
+          ],
+          "paired_percent_baseline_mean": 72.92397660818713,
+          "paired_percent_baseline_range": [
+            25.0,
+            125.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            50.0,
+            70.0,
+            84.21052631578948,
+            25.0,
+            83.33333333333333,
+            125.0
+          ]
+        },
+        "combined": {
+          "mean_spikes": 5.5,
+          "spikes_per_trial": [
+            2,
+            5,
+            9,
+            1,
+            9,
+            7
+          ],
+          "paired_percent_baseline_mean": 48.728070175438596,
+          "paired_percent_baseline_range": [
+            12.5,
+            87.5
+          ],
+          "paired_percent_baseline_per_trial": [
+            20.0,
+            50.0,
+            47.36842105263158,
+            12.5,
+            75.0,
+            87.5
+          ]
+        },
+        "restore_excitability": {
+          "mean_spikes": 4.0,
+          "spikes_per_trial": [
+            1,
+            2,
+            7,
+            2,
+            6,
+            6
+          ],
+          "paired_percent_baseline_mean": 36.14035087719298,
+          "paired_percent_baseline_range": [
+            10.0,
+            75.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            10.0,
+            20.0,
+            36.8421052631579,
+            25.0,
+            50.0,
+            75.0
+          ]
+        },
+        "restore_contacts": {
+          "mean_spikes": 12.0,
+          "spikes_per_trial": [
+            9,
+            12,
+            19,
+            7,
+            17,
+            8
+          ],
+          "paired_percent_baseline_mean": 106.52777777777777,
+          "paired_percent_baseline_range": [
+            87.5,
+            141.66666666666666
+          ],
+          "paired_percent_baseline_per_trial": [
+            90.0,
+            120.0,
+            100.0,
+            87.5,
+            141.66666666666666,
+            100.0
+          ]
+        },
+        "restore_cells": {
+          "mean_spikes": 7.833333333333333,
+          "spikes_per_trial": [
+            6,
+            7,
+            12,
+            2,
+            10,
+            10
+          ],
+          "paired_percent_baseline_mean": 71.08187134502924,
+          "paired_percent_baseline_range": [
+            25.0,
+            125.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            60.0,
+            70.0,
+            63.1578947368421,
+            25.0,
+            83.33333333333333,
+            125.0
+          ]
+        }
+      },
+      "input": {
+        "baseline": {
+          "mean_spikes": 111.5,
+          "spikes_per_trial": [
+            106,
+            113,
+            104,
+            120,
+            113,
+            113
+          ],
+          "paired_percent_baseline_mean": 100.0,
+          "paired_percent_baseline_range": [
+            100.0,
+            100.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ]
+        },
+        "excitability_only": {
+          "mean_spikes": 111.16666666666667,
+          "spikes_per_trial": [
+            105,
+            112,
+            104,
+            120,
+            112,
+            114
+          ],
+          "paired_percent_baseline_mean": 99.69527467022874,
+          "paired_percent_baseline_range": [
+            99.05660377358491,
+            100.88495575221239
+          ],
+          "paired_percent_baseline_per_trial": [
+            99.05660377358491,
+            99.11504424778761,
+            100.0,
+            100.0,
+            99.11504424778761,
+            100.88495575221239
+          ]
+        },
+        "contact_loss_only": {
+          "mean_spikes": 111.16666666666667,
+          "spikes_per_trial": [
+            105,
+            112,
+            103,
+            120,
+            113,
+            114
+          ],
+          "paired_percent_baseline_mean": 99.68251088534107,
+          "paired_percent_baseline_range": [
+            99.03846153846153,
+            100.88495575221239
+          ],
+          "paired_percent_baseline_per_trial": [
+            99.05660377358491,
+            99.11504424778761,
+            99.03846153846153,
+            100.0,
+            100.0,
+            100.88495575221239
+          ]
+        },
+        "cell_silencing_only": {
+          "mean_spikes": 111.5,
+          "spikes_per_trial": [
+            106,
+            113,
+            104,
+            120,
+            113,
+            113
+          ],
+          "paired_percent_baseline_mean": 100.0,
+          "paired_percent_baseline_range": [
+            100.0,
+            100.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ]
+        },
+        "combined": {
+          "mean_spikes": 111.33333333333333,
+          "spikes_per_trial": [
+            105,
+            113,
+            104,
+            120,
+            113,
+            113
+          ],
+          "paired_percent_baseline_mean": 99.84276729559748,
+          "paired_percent_baseline_range": [
+            99.05660377358491,
+            100.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            99.05660377358491,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ]
+        },
+        "restore_excitability": {
+          "mean_spikes": 111.5,
+          "spikes_per_trial": [
+            105,
+            113,
+            104,
+            120,
+            113,
+            114
+          ],
+          "paired_percent_baseline_mean": 99.99025992096621,
+          "paired_percent_baseline_range": [
+            99.05660377358491,
+            100.88495575221239
+          ],
+          "paired_percent_baseline_per_trial": [
+            99.05660377358491,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.88495575221239
+          ]
+        },
+        "restore_contacts": {
+          "mean_spikes": 111.5,
+          "spikes_per_trial": [
+            105,
+            113,
+            104,
+            120,
+            113,
+            114
+          ],
+          "paired_percent_baseline_mean": 99.99025992096621,
+          "paired_percent_baseline_range": [
+            99.05660377358491,
+            100.88495575221239
+          ],
+          "paired_percent_baseline_per_trial": [
+            99.05660377358491,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.88495575221239
+          ]
+        },
+        "restore_cells": {
+          "mean_spikes": 111.5,
+          "spikes_per_trial": [
+            105,
+            113,
+            104,
+            120,
+            113,
+            114
+          ],
+          "paired_percent_baseline_mean": 99.99025992096621,
+          "paired_percent_baseline_range": [
+            99.05660377358491,
+            100.88495575221239
+          ],
+          "paired_percent_baseline_per_trial": [
+            99.05660377358491,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.88495575221239
+          ]
+        }
+      }
+    }
+  },
+  "native": {
+    "readouts_sha256": "cb6c0bb1601b97ea4e4183d8ef612202f53c15865f9d1109adb6caf2b3d2cc79",
+    "stimulus": {
+      "all": {
+        "baseline": {
+          "mean_spikes": 44545.666666666664,
+          "spikes_per_trial": [
+            44711,
+            44354,
+            44371,
+            44148,
+            45013,
+            44677
+          ],
+          "paired_percent_baseline_mean": 100.0,
+          "paired_percent_baseline_range": [
+            100.0,
+            100.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ]
+        },
+        "excitability_only": {
+          "mean_spikes": 50775.333333333336,
+          "spikes_per_trial": [
+            50023,
+            50381,
+            50935,
+            50374,
+            52476,
+            50463
+          ],
+          "paired_percent_baseline_mean": 113.982591324297,
+          "paired_percent_baseline_range": [
+            111.8807452304802,
+            116.57965476640082
+          ],
+          "paired_percent_baseline_per_trial": [
+            111.8807452304802,
+            113.58840239888173,
+            114.79344616979559,
+            114.1025641025641,
+            116.57965476640082,
+            112.95073527765965
+          ]
+        },
+        "contact_loss_only": {
+          "mean_spikes": 36776.5,
+          "spikes_per_trial": [
+            36594,
+            36879,
+            36981,
+            37108,
+            36842,
+            36255
+          ],
+          "paired_percent_baseline_mean": 82.56463394122635,
+          "paired_percent_baseline_range": [
+            81.1491371399154,
+            84.05363776388512
+          ],
+          "paired_percent_baseline_per_trial": [
+            81.84563082910246,
+            83.14695405149479,
+            83.34497757544342,
+            84.05363776388512,
+            81.84746628751694,
+            81.1491371399154
+          ]
+        },
+        "cell_silencing_only": {
+          "mean_spikes": 37181.166666666664,
+          "spikes_per_trial": [
+            36826,
+            37368,
+            36847,
+            37802,
+            37301,
+            36943
+          ],
+          "paired_percent_baseline_mean": 83.47313649153996,
+          "paired_percent_baseline_range": [
+            82.36451879850596,
+            85.62562290477484
+          ],
+          "paired_percent_baseline_per_trial": [
+            82.36451879850596,
+            84.24944762591875,
+            83.04297852200762,
+            85.62562290477484,
+            82.86717170595162,
+            82.68907939208094
+          ]
+        },
+        "combined": {
+          "mean_spikes": 36109.833333333336,
+          "spikes_per_trial": [
+            35936,
+            35895,
+            36158,
+            35262,
+            37498,
+            35910
+          ],
+          "paired_percent_baseline_mean": 81.05775962160544,
+          "paired_percent_baseline_range": [
+            79.87224789344931,
+            83.30482305111856
+          ],
+          "paired_percent_baseline_per_trial": [
+            80.37395719174252,
+            80.92843937412634,
+            81.49016249352054,
+            79.87224789344931,
+            83.30482305111856,
+            80.3769277256754
+          ]
+        },
+        "restore_excitability": {
+          "mean_spikes": 34659.666666666664,
+          "spikes_per_trial": [
+            34062,
+            34730,
+            34532,
+            34976,
+            35394,
+            34264
+          ],
+          "paired_percent_baseline_mean": 77.80963268725041,
+          "paired_percent_baseline_range": [
+            76.18259488716423,
+            79.22442692760714
+          ],
+          "paired_percent_baseline_per_trial": [
+            76.18259488716423,
+            78.30184425305497,
+            77.82560681526222,
+            79.22442692760714,
+            78.63061782151823,
+            76.69270541889563
+          ]
+        },
+        "restore_contacts": {
+          "mean_spikes": 41493.666666666664,
+          "spikes_per_trial": [
+            40764,
+            41725,
+            40869,
+            41628,
+            42179,
+            41797
+          ],
+          "paired_percent_baseline_mean": 93.1503397619352,
+          "paired_percent_baseline_range": [
+            91.1721947619154,
+            94.29192715411797
+          ],
+          "paired_percent_baseline_per_trial": [
+            91.1721947619154,
+            94.07268791991703,
+            92.10745757364045,
+            94.29192715411797,
+            93.7040410548064,
+            93.55373010721401
+          ]
+        },
+        "restore_cells": {
+          "mean_spikes": 39605.5,
+          "spikes_per_trial": [
+            38860,
+            39871,
+            39242,
+            38710,
+            41302,
+            39648
+          ],
+          "paired_percent_baseline_mean": 88.904794957031,
+          "paired_percent_baseline_range": [
+            86.91373487508666,
+            91.75571501566215
+          ],
+          "paired_percent_baseline_per_trial": [
+            86.91373487508666,
+            89.89268160707039,
+            88.44064817110275,
+            87.68234121591011,
+            91.75571501566215,
+            88.74364885735389
+          ]
+        }
+      },
+      "KC": {
+        "baseline": {
+          "mean_spikes": 14784.0,
+          "spikes_per_trial": [
+            15204,
+            14695,
+            14712,
+            14502,
+            14861,
+            14730
+          ],
+          "paired_percent_baseline_mean": 100.0,
+          "paired_percent_baseline_range": [
+            100.0,
+            100.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ]
+        },
+        "excitability_only": {
+          "mean_spikes": 20365.333333333332,
+          "spikes_per_trial": [
+            20134,
+            20409,
+            20574,
+            20138,
+            21217,
+            19720
+          ],
+          "paired_percent_baseline_mean": 137.77739821427616,
+          "paired_percent_baseline_range": [
+            132.42567745330177,
+            142.76966556759302
+          ],
+          "paired_percent_baseline_per_trial": [
+            132.42567745330177,
+            138.88397414086424,
+            139.84502446982054,
+            138.86360501999724,
+            142.76966556759302,
+            133.87644263408012
+          ]
+        },
+        "contact_loss_only": {
+          "mean_spikes": 8456.833333333334,
+          "spikes_per_trial": [
+            8394,
+            8590,
+            8444,
+            8694,
+            8705,
+            7914
+          ],
+          "paired_percent_baseline_mean": 57.21888567665463,
+          "paired_percent_baseline_range": [
+            53.72708757637474,
+            59.95035167563095
+          ],
+          "paired_percent_baseline_per_trial": [
+            55.20915548539858,
+            58.455256890098674,
+            57.39532354540511,
+            59.95035167563095,
+            58.57613888701972,
+            53.72708757637474
+          ]
+        },
+        "cell_silencing_only": {
+          "mean_spikes": 8382.666666666666,
+          "spikes_per_trial": [
+            8345,
+            8818,
+            7971,
+            8749,
+            8333,
+            8080
+          ],
+          "paired_percent_baseline_mean": 56.72175493480629,
+          "paired_percent_baseline_range": [
+            54.18026101141925,
+            60.32960970900565
+          ],
+          "paired_percent_baseline_per_trial": [
+            54.88687187582215,
+            60.00680503572644,
+            54.18026101141925,
+            60.32960970900565,
+            56.07294260144001,
+            54.85403937542431
+          ]
+        },
+        "combined": {
+          "mean_spikes": 8019.333333333333,
+          "spikes_per_trial": [
+            8025,
+            8041,
+            7965,
+            7741,
+            8540,
+            7804
+          ],
+          "paired_percent_baseline_mean": 54.244323273231466,
+          "paired_percent_baseline_range": [
+            52.782162588792424,
+            57.4658502119642
+          ],
+          "paired_percent_baseline_per_trial": [
+            52.782162588792424,
+            54.71929227628445,
+            54.1394779771615,
+            53.3788442973383,
+            57.4658502119642,
+            52.98031228784793
+          ]
+        },
+        "restore_excitability": {
+          "mean_spikes": 6525.166666666667,
+          "spikes_per_trial": [
+            6324,
+            6591,
+            6366,
+            6882,
+            6721,
+            6267
+          ],
+          "paired_percent_baseline_mean": 44.157369004324046,
+          "paired_percent_baseline_range": [
+            41.59431728492502,
+            47.455523376086056
+          ],
+          "paired_percent_baseline_per_trial": [
+            41.59431728492502,
+            44.851990472949986,
+            43.27079934747145,
+            47.455523376086056,
+            45.22575869726129,
+            42.54582484725051
+          ]
+        },
+        "restore_contacts": {
+          "mean_spikes": 12077.166666666666,
+          "spikes_per_trial": [
+            11746,
+            12304,
+            11648,
+            12169,
+            12592,
+            12004
+          ],
+          "paired_percent_baseline_mean": 81.71609525132389,
+          "paired_percent_baseline_range": [
+            77.25598526703499,
+            84.73184846241841
+          ],
+          "paired_percent_baseline_per_trial": [
+            77.25598526703499,
+            83.72915957808779,
+            79.17346383904295,
+            83.91256378430562,
+            84.73184846241841,
+            81.49355057705363
+          ]
+        },
+        "restore_cells": {
+          "mean_spikes": 11017.0,
+          "spikes_per_trial": [
+            10694,
+            11341,
+            10629,
+            10470,
+            12061,
+            10907
+          ],
+          "paired_percent_baseline_mean": 74.5269415210618,
+          "paired_percent_baseline_range": [
+            70.33675348592476,
+            81.15873763542157
+          ],
+          "paired_percent_baseline_per_trial": [
+            70.33675348592476,
+            77.17591017352841,
+            72.24714518760196,
+            72.19693835333058,
+            81.15873763542157,
+            74.04616429056348
+          ]
+        }
+      },
+      "MBON": {
+        "baseline": {
+          "mean_spikes": 821.6666666666666,
+          "spikes_per_trial": [
+            842,
+            806,
+            824,
+            808,
+            836,
+            814
+          ],
+          "paired_percent_baseline_mean": 100.0,
+          "paired_percent_baseline_range": [
+            100.0,
+            100.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ]
+        },
+        "excitability_only": {
+          "mean_spikes": 958.3333333333334,
+          "spikes_per_trial": [
+            965,
+            934,
+            963,
+            954,
+            989,
+            945
+          ],
+          "paired_percent_baseline_mean": 116.63700162989034,
+          "paired_percent_baseline_range": [
+            114.60807600950119,
+            118.30143540669856
+          ],
+          "paired_percent_baseline_per_trial": [
+            114.60807600950119,
+            115.88089330024813,
+            116.86893203883496,
+            118.06930693069307,
+            118.30143540669856,
+            116.0933660933661
+          ]
+        },
+        "contact_loss_only": {
+          "mean_spikes": 456.5,
+          "spikes_per_trial": [
+            458,
+            460,
+            457,
+            463,
+            468,
+            433
+          ],
+          "paired_percent_baseline_mean": 55.56739487831059,
+          "paired_percent_baseline_range": [
+            53.19410319410319,
+            57.301980198019805
+          ],
+          "paired_percent_baseline_per_trial": [
+            54.394299287410924,
+            57.07196029776675,
+            55.46116504854369,
+            57.301980198019805,
+            55.98086124401914,
+            53.19410319410319
+          ]
+        },
+        "cell_silencing_only": {
+          "mean_spikes": 584.1666666666666,
+          "spikes_per_trial": [
+            602,
+            593,
+            563,
+            601,
+            581,
+            565
+          ],
+          "paired_percent_baseline_mean": 71.11399932504465,
+          "paired_percent_baseline_range": [
+            68.3252427184466,
+            74.38118811881188
+          ],
+          "paired_percent_baseline_per_trial": [
+            71.49643705463183,
+            73.57320099255583,
+            68.3252427184466,
+            74.38118811881188,
+            69.49760765550239,
+            69.41031941031942
+          ]
+        },
+        "combined": {
+          "mean_spikes": 440.3333333333333,
+          "spikes_per_trial": [
+            454,
+            440,
+            431,
+            423,
+            461,
+            433
+          ],
+          "paired_percent_baseline_mean": 53.584127479964,
+          "paired_percent_baseline_range": [
+            52.30582524271845,
+            55.143540669856456
+          ],
+          "paired_percent_baseline_per_trial": [
+            53.919239904988125,
+            54.59057071960298,
+            52.30582524271845,
+            52.351485148514854,
+            55.143540669856456,
+            53.19410319410319
+          ]
+        },
+        "restore_excitability": {
+          "mean_spikes": 384.5,
+          "spikes_per_trial": [
+            380,
+            385,
+            384,
+            398,
+            389,
+            371
+          ],
+          "paired_percent_baseline_mean": 46.810875709305066,
+          "paired_percent_baseline_range": [
+            45.13064133016627,
+            49.257425742574256
+          ],
+          "paired_percent_baseline_per_trial": [
+            45.13064133016627,
+            47.76674937965261,
+            46.601941747572816,
+            49.257425742574256,
+            46.5311004784689,
+            45.57739557739558
+          ]
+        },
+        "restore_contacts": {
+          "mean_spikes": 739.5,
+          "spikes_per_trial": [
+            742,
+            742,
+            730,
+            730,
+            766,
+            727
+          ],
+          "paired_percent_baseline_mean": 90.01011167048206,
+          "paired_percent_baseline_range": [
+            88.12351543942992,
+            92.05955334987593
+          ],
+          "paired_percent_baseline_per_trial": [
+            88.12351543942992,
+            92.05955334987593,
+            88.59223300970874,
+            90.34653465346534,
+            91.62679425837321,
+            89.31203931203932
+          ]
+        },
+        "restore_cells": {
+          "mean_spikes": 551.3333333333334,
+          "spikes_per_trial": [
+            548,
+            552,
+            534,
+            538,
+            589,
+            547
+          ],
+          "paired_percent_baseline_mean": 67.10217234356112,
+          "paired_percent_baseline_range": [
+            64.80582524271844,
+            70.45454545454545
+          ],
+          "paired_percent_baseline_per_trial": [
+            65.08313539192399,
+            68.4863523573201,
+            64.80582524271844,
+            66.58415841584159,
+            70.45454545454545,
+            67.1990171990172
+          ]
+        }
+      },
+      "input": {
+        "baseline": {
+          "mean_spikes": 224.0,
+          "spikes_per_trial": [
+            228,
+            221,
+            219,
+            233,
+            214,
+            229
+          ],
+          "paired_percent_baseline_mean": 100.0,
+          "paired_percent_baseline_range": [
+            100.0,
+            100.0
+          ],
+          "paired_percent_baseline_per_trial": [
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0
+          ]
+        },
+        "excitability_only": {
+          "mean_spikes": 225.5,
+          "spikes_per_trial": [
+            226,
+            224,
+            221,
+            226,
+            224,
+            232
+          ],
+          "paired_percent_baseline_mean": 100.72869401815251,
+          "paired_percent_baseline_range": [
+            96.99570815450643,
+            104.67289719626169
+          ],
+          "paired_percent_baseline_per_trial": [
+            99.12280701754386,
+            101.35746606334841,
+            100.91324200913242,
+            96.99570815450643,
+            104.67289719626169,
+            101.31004366812228
+          ]
+        },
+        "contact_loss_only": {
+          "mean_spikes": 225.33333333333334,
+          "spikes_per_trial": [
+            233,
+            221,
+            216,
+            230,
+            223,
+            229
+          ],
+          "paired_percent_baseline_mean": 100.62352887850143,
+          "paired_percent_baseline_range": [
+            98.63013698630137,
+            104.20560747663552
+          ],
+          "paired_percent_baseline_per_trial": [
+            102.19298245614036,
+            100.0,
+            98.63013698630137,
+            98.71244635193133,
+            104.20560747663552,
+            100.0
+          ]
+        },
+        "cell_silencing_only": {
+          "mean_spikes": 224.33333333333334,
+          "spikes_per_trial": [
+            223,
+            223,
+            218,
+            235,
+            219,
+            228
+          ],
+          "paired_percent_baseline_mean": 100.16891839816583,
+          "paired_percent_baseline_range": [
+            97.80701754385964,
+            102.33644859813084
+          ],
+          "paired_percent_baseline_per_trial": [
+            97.80701754385964,
+            100.90497737556561,
+            99.54337899543378,
+            100.85836909871244,
+            102.33644859813084,
+            99.56331877729258
+          ]
+        },
+        "combined": {
+          "mean_spikes": 226.66666666666666,
+          "spikes_per_trial": [
+            228,
+            229,
+            219,
+            232,
+            220,
+            232
+          ],
+          "paired_percent_baseline_mean": 101.21741782313092,
+          "paired_percent_baseline_range": [
+            99.57081545064378,
+            103.61990950226244
+          ],
+          "paired_percent_baseline_per_trial": [
+            100.0,
+            103.61990950226244,
+            100.0,
+            99.57081545064378,
+            102.80373831775701,
+            101.31004366812228
+          ]
+        },
+        "restore_excitability": {
+          "mean_spikes": 227.5,
+          "spikes_per_trial": [
+            224,
+            225,
+            226,
+            237,
+            225,
+            228
+          ],
+          "paired_percent_baseline_mean": 101.61202661813128,
+          "paired_percent_baseline_range": [
+            98.24561403508773,
+            105.14018691588785
+          ],
+          "paired_percent_baseline_per_trial": [
+            98.24561403508773,
+            101.80995475113122,
+            103.19634703196347,
+            101.71673819742489,
+            105.14018691588785,
+            99.56331877729258
+          ]
+        },
+        "restore_contacts": {
+          "mean_spikes": 225.16666666666666,
+          "spikes_per_trial": [
+            223,
+            222,
+            219,
+            235,
+            220,
+            232
+          ],
+          "paired_percent_baseline_mean": 100.5386095527057,
+          "paired_percent_baseline_range": [
+            97.80701754385964,
+            102.80373831775701
+          ],
+          "paired_percent_baseline_per_trial": [
+            97.80701754385964,
+            100.4524886877828,
+            100.0,
+            100.85836909871244,
+            102.80373831775701,
+            101.31004366812228
+          ]
+        },
+        "restore_cells": {
+          "mean_spikes": 223.0,
+          "spikes_per_trial": [
+            222,
+            221,
+            221,
+            219,
+            224,
+            231
+          ],
+          "paired_percent_baseline_mean": 99.63655650207556,
+          "paired_percent_baseline_range": [
+            93.99141630901288,
+            104.67289719626169
+          ],
+          "paired_percent_baseline_per_trial": [
+            97.36842105263158,
+            100.0,
+            100.91324200913242,
+            93.99141630901288,
+            104.67289719626169,
+            100.87336244541484
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+trial,condition,seed,input_sha256,input_event_count,silenced_cells,silenced_input_cells,silenced_MBON_cells,contacts_lost_to_silencing,contacts_lost_to_thinning,overlap_contacts,total_contacts_lost,dynamic_contacts_lost
+0,no_input,20261024,5bcdbb159f1e93b37ceec66b0473bf8b42f3e0818b7f1085bd4964e46a9dc326,0,0,0,0,0,0,0,0,0
+0,baseline,20261024,5bcdbb159f1e93b37ceec66b0473bf8b42f3e0818b7f1085bd4964e46a9dc326,107,0,0,0,0,0,0,0,0

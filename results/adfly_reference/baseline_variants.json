@@ -1,0 +1,246 @@
+{
+  "purpose": "Diagnose healthy-baseline sensitivity to graph deletion and adaptation, using identical external events in every condition.",
+  "source": "https://github.com/taehojo/adfly-connectome",
+  "source_commit": "dcc143ec703d297739bf92f825b20dceea232505",
+  "neurons": 166700,
+  "signed_connections": 24469412,
+  "stimulus": {
+    "odor": "A",
+    "body_ids": [
+      10176,
+      10208,
+      10390,
+      10561,
+      10613,
+      10670,
+      71476,
+      73492
+    ],
+    "rate_hz": 150,
+    "seed": 20261024,
+    "input_events": 107,
+    "event_sha256": "f54a7f0ef564da23825ab53a02e3a716295fc22bccdef45194e65f9abfb7e48b",
+    "duration_ms": 100,
+    "washout_ms": 150,
+    "replayed_from": "results/amyloid_native_graph_check/input_trial_00.npz",
+    "source_file_sha256": "1b78c55cc010be82f222169d338025b42e2e9cd652d45234a09a4bad4dd320bb",
+    "source_prestimulus_offset_removed_seconds": 0.05
+  },
+  "variants": [
+    {
+      "variant": "native_signed_graph",
+      "adaptation_increment_mV": 0.0,
+      "al_connections_zeroed": 0,
+      "elapsed_seconds": 2.187,
+      "driven_100ms": {
+        "spikes": 44466,
+        "active_neurons": 8223,
+        "spikes_per_10ms": [
+          146,
+          2506,
+          5057,
+          5575,
+          5249,
+          5062,
+          5393,
+          5040,
+          5255,
+          5183
+        ],
+        "KC_spikes": 15046,
+        "MBON_spikes": 838,
+        "stimulated_spikes": 228,
+        "network_spikes_per_second": 444660.0,
+        "spikes_per_50ms": [
+          18533,
+          25933
+        ],
+        "network_spikes_per_second_per_50ms": [
+          370660.0,
+          518660.0
+        ]
+      },
+      "poststimulus_150ms": {
+        "spikes": 75495,
+        "active_neurons": 7902,
+        "spikes_per_10ms": [
+          5259,
+          5077,
+          4929,
+          4908,
+          5132,
+          4857,
+          4996,
+          5287,
+          4947,
+          5002,
+          4994,
+          4919,
+          4968,
+          5155,
+          5065
+        ],
+        "KC_spikes": 25291,
+        "MBON_spikes": 1489,
+        "stimulated_spikes": 239,
+        "network_spikes_per_second": 503300.0,
+        "spikes_per_50ms": [
+          25305,
+          25089,
+          25101
+        ],
+        "network_spikes_per_second_per_50ms": [
+          506100.0,
+          501780.0,
+          502020.0
+        ]
+      }
+    },
+    {
+      "variant": "adaptation_only",
+      "adaptation_increment_mV": 1.0,
+      "al_connections_zeroed": 0,
+      "elapsed_seconds": 1.385,
+      "driven_100ms": {
+        "spikes": 33468,
+        "active_neurons": 7712,
+        "spikes_per_10ms": [
+          146,
+          2494,
+          4947,
+          4927,
+          4172,
+          3696,
+          3649,
+          3330,
+          3045,
+          3062
+        ],
+        "KC_spikes": 8029,
+        "MBON_spikes": 535,
+        "stimulated_spikes": 209,
+        "network_spikes_per_second": 334680.0,
+        "spikes_per_50ms": [
+          16686,
+          16782
+        ],
+        "network_spikes_per_second_per_50ms": [
+          333720.0,
+          335640.0
+        ]
+      },
+      "poststimulus_150ms": {
+        "spikes": 33790,
+        "active_neurons": 6325,
+        "spikes_per_10ms": [
+          2941,
+          2751,
+          2582,
+          2383,
+          2339,
+          2180,
+          2506,
+          2318,
+          2049,
+          1933,
+          1951,
+          1958,
+          1797,
+          2062,
+          2040
+        ],
+        "KC_spikes": 2836,
+        "MBON_spikes": 215,
+        "stimulated_spikes": 182,
+        "network_spikes_per_second": 225266.6666666667,
+        "spikes_per_50ms": [
+          12996,
+          10986,
+          9808
+        ],
+        "network_spikes_per_second_per_50ms": [
+          259920.0,
+          219720.0,
+          196160.0
+        ]
+      }
+    },
+    {
+      "variant": "reference_default",
+      "adaptation_increment_mV": 1.0,
+      "al_connections_zeroed": 435937,
+      "elapsed_seconds": 1.085,
+      "driven_100ms": {
+        "spikes": 1064,
+        "active_neurons": 525,
+        "spikes_per_10ms": [
+          45,
+          226,
+          120,
+          64,
+          52,
+          167,
+          161,
+          57,
+          38,
+          134
+        ],
+        "KC_spikes": 205,
+        "MBON_spikes": 10,
+        "stimulated_spikes": 106,
+        "network_spikes_per_second": 10640.0,
+        "spikes_per_50ms": [
+          507,
+          557
+        ],
+        "network_spikes_per_second_per_50ms": [
+          10140.0,
+          11140.0
+        ]
+      },
+      "poststimulus_150ms": {
+        "spikes": 42,
+        "active_neurons": 42,
+        "spikes_per_10ms": [
+          41,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "KC_spikes": 19,
+        "MBON_spikes": 1,
+        "stimulated_spikes": 0,
+        "network_spikes_per_second": 280.0,
+        "spikes_per_50ms": [
+          42,
+          0,
+          0
+        ],
+        "network_spikes_per_second_per_50ms": [
+          840.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "One seed",
+    "250 ms biological time",
+    "External Numba engine, not a new numerical-equivalence test against our Brian2 implementation",
+    "No learning or disease intervention",
+    "The reference-default condition removes measured connections and adds assumed adaptation; lower residual activity does not establish greater biological accuracy"
+  ],
+  "elapsed_seconds": 7.02
+}

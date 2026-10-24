@@ -4,7 +4,12 @@ Research question: **Can amyloid-associated changes in neuronal excitability
 disrupt memory retention in the intact MaleCNS network, and can a circuit
 intervention improve retention without changing initial learning?**
 
-This is a proposed experiment, not a completed result. We need not simulate
+The retention experiment below remains proposed. A preceding **component assay
+is now complete** using the published adfly engine: 54 paired trials, 54 original-graph
+comparison trials and six exact full-restoration checks. See the
+[circuit results](results/amyloid_reference_components/report.md) and
+[extracted biological benchmarks](research/biological_benchmarks/README.md).
+That assay measures stimulus responses, not learning or retention. We need not simulate
 every molecular pathway to test one disease-related hypothesis. Validation means
 comparing specified model predictions with independent biological observations.
 Successful execution and agreement between two simulators are separate checks.

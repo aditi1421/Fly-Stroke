@@ -1,0 +1,98 @@
+{
+  "purpose": "Technical reference execution only; no disease perturbation, learning or retention assay.",
+  "source": "https://github.com/taehojo/adfly-connectome",
+  "source_commit": "dcc143ec703d297739bf92f825b20dceea232505",
+  "source_license": "MIT; data/results CC BY 4.0 except identified FlyWire-derived files CC BY-NC 4.0",
+  "neurons": 166700,
+  "signed_connections": 24469412,
+  "network_array_checks": {
+    "neuron_ids.npy": {
+      "sha256": "ab90597b7b0ce07cbc22cb39a65b70bea2ac73cc7fd225951bd9d73f2fc8dd3f",
+      "matches_published": true
+    },
+    "row_ptr.npy": {
+      "sha256": "7cc87cb58015afc74be1e19d433af0a60a3fef06244871f44ed481e7ed6c75ba",
+      "matches_published": true
+    },
+    "dst.npy": {
+      "sha256": "cf34154377afd6382c5adb73c06bf0d9a5475d7428f488416a8478caa1efffd3",
+      "matches_published": true
+    },
+    "signed_w.npy": {
+      "sha256": "be2c2e5678712061ee1e3d54aac4c4992ca57b473f3c5a0f4937c09cdbadff0d",
+      "matches_published": true
+    }
+  },
+  "al_connections_zeroed_by_reference_model": 435937,
+  "al_contacts_zeroed_by_reference_model": 3235396,
+  "model_extensions": [
+    "All AL-to-AL chemical connections zeroed",
+    "1 mV spike adaptation in nonsensory neurons, tau 1000 ms"
+  ],
+  "stimulus": {
+    "odor": "A",
+    "glomeruli": [
+      "DM1",
+      "DM4",
+      "VA2"
+    ],
+    "body_ids": [
+      10176,
+      10208,
+      10390,
+      10561,
+      10613,
+      10670,
+      71476,
+      73492
+    ],
+    "rate_hz": 150,
+    "duration_ms": 100.0,
+    "seed": 20261024,
+    "input_events": 107,
+    "event_sha256": "f54a7f0ef564da23825ab53a02e3a716295fc22bccdef45194e65f9abfb7e48b"
+  },
+  "driven": {
+    "total_spikes": 1064,
+    "active_neurons": 525,
+    "KC_spikes": 205,
+    "MBON_spikes": 10,
+    "stimulated_neuron_spikes": 106
+  },
+  "poststimulus_100ms": {
+    "total_spikes": 42,
+    "active_neurons": 42,
+    "KC_spikes": 19,
+    "MBON_spikes": 1
+  },
+  "stored_validation_audit": {
+    "description": "facts_validation.py rerun on the author's stored results; this is arithmetic reproduction, not a new engine comparison",
+    "byte_identical_to_commit": true,
+    "sha256": "5dfc52b87695f34789072758f20157728c9c4973043e1a14eb4ceaba92f4c893",
+    "facts_count": 159,
+    "network": "Shiu et al. 2024 leaky integrate-and-fire on FlyWire v630",
+    "neurons": 127400,
+    "pearson_200hz_engine_vs_local_brian2_range": [
+      0.9998,
+      0.9998
+    ]
+  },
+  "versions": {
+    "python": "3.11.8",
+    "numpy": "2.2.6",
+    "numba": "0.61.2"
+  },
+  "elapsed_seconds": 8.294,
+  "limitations": [
+    "Single healthy realization",
+    "Only 200 ms biological time",
+    "Different software versions from published environment",
+    "Published numerical comparison covers FlyWire base equations, not MaleCNS adaptation, removed AL edges or disease biology",
+    "No independent animal or human validation"
+  ],
+  "official_input_sha256": {
+    "body-annotations-male-cns-v1.0-minconf-0.5.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "body-neurotransmitters-male-cns-v1.0.feather": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621",
+    "connectome-weights-male-cns-v1.0-minconf-0.5.feather": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+  }
+}

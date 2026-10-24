@@ -1,5 +1,14 @@
 # Fly-Stroke: fly memory experiment
 
+**Latest completed experiment:** the published [adfly-connectome model](https://github.com/taehojo/adfly-connectome)
+ran all **166,700 neurons** across 54 paired component trials, with 54 original-graph
+comparison trials and six complete-restoration checks. Combined amyloid-inspired
+changes reduced mean mushroom-body output spikes from 11.2 to 5.5 during stimulation.
+See the [results and interpretation](results/amyloid_reference_components/report.md),
+[chart](results/amyloid_reference_components/comparison.png), and
+[reproduction instructions](research/REFERENCE_REPRODUCTION.md).
+These are circuit-response measurements; learned memory and human disease were not tested.
+
 The current whole-network work uses the **MaleCNS v1.0 brain and ventral nerve
 cord dataset** announced by Google Research and Janelia in September 2026.
 See [source review](SOURCE_REVIEW.md) and [whole-network setup](WHOLE_BRAIN.md).

@@ -1,0 +1,46 @@
+{
+  "source_doi": "10.1371/journal.pgen.1005025",
+  "source_url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005025",
+  "source_location": "Results: Characterizing Aβ42-Induced Hyperexcitability; Figure 1C–D caption",
+  "retrieved_date": "2026-10-24",
+  "extraction": "Numeric text explicitly reported in article; no figure digitization or individual observations reconstructed",
+  "preparation": "Primary neurons dissociated from late-gastrula embryos, aged nine days in culture; article describes likely larval-stage neurons",
+  "protocol": {
+    "current_ramp_start_pA": 0,
+    "current_ramp_end_pA": 150,
+    "ramp_duration_ms": 1000,
+    "starting_membrane_potential_mV_range": [-60, -50],
+    "outcome": "injected current at first action potential",
+    "experimental_unit": "recorded neuron; independence of culture batches not specified in this extraction"
+  },
+  "groups": [
+    {
+      "condition": "genetic-background control",
+      "n_neurons": 13,
+      "first_spike_current_mean_pA": 35.9,
+      "first_spike_current_reported_plusminus_pA": 4.7,
+      "charge_mean_pA_ms": 5132.8,
+      "charge_reported_plusminus_pA_ms": 1091.32
+    },
+    {
+      "condition": "elav-GAL4;UAS-Aβ42/+",
+      "n_neurons": 6,
+      "first_spike_current_mean_pA": 19.5,
+      "first_spike_current_reported_plusminus_pA": 2.2,
+      "charge_mean_pA_ms": 2197.4,
+      "charge_reported_plusminus_pA_ms": 484.46
+    }
+  ],
+  "uncertainty_note": "The extracted Figure 1 text reports +/- without an explicit error-type definition at that location; retain reported_plusminus rather than invent a CI or raw samples. Other figure captions label SEM, but do not assume this proves Figure 1's convention.",
+  "proposed_use": "Calibrate a preparation-specific single-cell current-ramp response, not the full adult MaleCNS disease parameters",
+  "independent_targets": [
+    "Dependence of first-spike latency on initial membrane potential in a pulse protocol (Figure 1E–F); new protocol, although same paper and not assured independent samples",
+    "Kv4 restoration effects on potassium currents (Figure 4); requires a conductance model and independent quantitative data extraction"
+  ],
+  "mapping_limitations": [
+    "35.9-to-19.5 pA ratio cannot be applied directly to a voltage threshold; capacitance, leak, holding potential and channel kinetics matter",
+    "Changing a LIF threshold can match one summary without identifying Kv4 causality",
+    "Kaldun 2021 uses Arctic Aβ42 and adult memory assays; it is a different transgene/preparation, not paired measurements from these cells",
+    "Kv4 loss alone did not reproduce observed neurodegeneration, so do not equate an excitability proxy with neuron death"
+  ]
+}

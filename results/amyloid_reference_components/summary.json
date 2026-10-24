@@ -1,0 +1,311 @@
+{
+  "status": "completed",
+  "source": "https://github.com/taehojo/adfly-connectome",
+  "source_commit": "dcc143ec703d297739bf92f825b20dceea232505",
+  "runner_sha256": "760f738656f07f252a6ecfe28be171f4c2041aab8d0baf6c9773c283845b0773",
+  "neurons": 166700,
+  "repeats": 6,
+  "conditions": [
+    {
+      "name": "no_input",
+      "excitation": false,
+      "contact_loss": false,
+      "cell_loss": false,
+      "stimulated": false
+    },
+    {
+      "name": "baseline",
+      "excitation": false,
+      "contact_loss": false,
+      "cell_loss": false,
+      "stimulated": true
+    },
+    {
+      "name": "excitability_only",
+      "excitation": true,
+      "contact_loss": false,
+      "cell_loss": false,
+      "stimulated": true
+    },
+    {
+      "name": "contact_loss_only",
+      "excitation": false,
+      "contact_loss": true,
+      "cell_loss": false,
+      "stimulated": true
+    },
+    {
+      "name": "cell_silencing_only",
+      "excitation": false,
+      "contact_loss": false,
+      "cell_loss": true,
+      "stimulated": true
+    },
+    {
+      "name": "combined",
+      "excitation": true,
+      "contact_loss": true,
+      "cell_loss": true,
+      "stimulated": true
+    },
+    {
+      "name": "restore_excitability",
+      "excitation": false,
+      "contact_loss": true,
+      "cell_loss": true,
+      "stimulated": true
+    },
+    {
+      "name": "restore_contacts",
+      "excitation": true,
+      "contact_loss": false,
+      "cell_loss": true,
+      "stimulated": true
+    },
+    {
+      "name": "restore_cells",
+      "excitation": true,
+      "contact_loss": true,
+      "cell_loss": false,
+      "stimulated": true
+    }
+  ],
+  "KC_edges_mapped": 885611,
+  "KC_zero_sign_edges_not_in_reference": 0,
+  "al_edges_disabled": 435937,
+  "adaptation_increment_mV": 1.0,
+  "assay_configuration": {
+    "status": "running",
+    "dataset": {
+      "dataset": "male-cns:v1.0",
+      "release_date": "2026-06-08",
+      "announcement_date": "2026-09-03",
+      "source": "https://male-cns.janelia.org/download/",
+      "attribution": "FlyEM/HHMI Janelia, University of Cambridge, MRC LMB, Google Research",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "neuron_count": 166700,
+      "directed_connections": 25582938,
+      "synaptic_contacts": 124177617,
+      "excluded_segment_connections": 126273746,
+      "zero_sign_neurons": 11609,
+      "zero_weight_connections": 1113526,
+      "selection": "All non-null neuronal superclasses; includes uncertain classes. Excludes glia and unclassified segments. Both endpoints must be retained. No edge threshold; self-connections retained.",
+      "sign_assumptions": {
+        "acetylcholine": 1,
+        "gaba": -1,
+        "glutamate": -1,
+        "other_or_unknown": 0
+      },
+      "limitations": "Predicted transmitter signs are simplified. Modulatory/unknown outputs have zero dynamic weight but their contacts remain recorded. No receptor-specific effects, electrical synapses, disease mechanisms, or biological validation of transferred dynamics.",
+      "raw_files": {
+        "annotations": {
+          "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+          "bytes": 14483314,
+          "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+        },
+        "neurotransmitters": {
+          "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+          "bytes": 43282834,
+          "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+        },
+        "connections": {
+          "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+          "bytes": 1051241946,
+          "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+        }
+      },
+      "prepared_files": {
+        "neurons.csv": {
+          "bytes": 7985504,
+          "sha256": "f3c2aa74b04db9a03dd012f80ef3f5b480768f47329de9cf86e1e1f9174f28a8"
+        },
+        "connections.parquet": {
+          "bytes": 168271709,
+          "sha256": "14390483fc1e10846b6b77ed286cc81556bfa524f107d0aa1cd48611279bbbb2"
+        }
+      }
+    },
+    "repeats": 6,
+    "input": {
+      "body_ids": [
+        10176,
+        10208,
+        10390,
+        10561,
+        10613,
+        10670,
+        71476,
+        73492
+      ],
+      "rate_hz_per_cell": 150,
+      "dt_ms": 0.1,
+      "kind": "Recorded Bernoulli events; strong voltage kicks into 8 projection neurons, not physical odors",
+      "selection_source": "https://github.com/taehojo/adfly-connectome (DM1/DM4/VA2 ALPN protocol)"
+    },
+    "phases_seconds": {
+      "pre": 0.05,
+      "stimulus": 0.1,
+      "washout": 0.15
+    },
+    "conditions": [
+      {
+        "name": "no_input",
+        "excitation": false,
+        "contact_loss": false,
+        "cell_loss": false,
+        "stimulated": false
+      },
+      {
+        "name": "baseline",
+        "excitation": false,
+        "contact_loss": false,
+        "cell_loss": false,
+        "stimulated": true
+      },
+      {
+        "name": "excitability_only",
+        "excitation": true,
+        "contact_loss": false,
+        "cell_loss": false,
+        "stimulated": true
+      },
+      {
+        "name": "contact_loss_only",
+        "excitation": false,
+        "contact_loss": true,
+        "cell_loss": false,
+        "stimulated": true
+      },
+      {
+        "name": "cell_silencing_only",
+        "excitation": false,
+        "contact_loss": false,
+        "cell_loss": true,
+        "stimulated": true
+      },
+      {
+        "name": "combined",
+        "excitation": true,
+        "contact_loss": true,
+        "cell_loss": true,
+        "stimulated": true
+      },
+      {
+        "name": "restore_excitability",
+        "excitation": false,
+        "contact_loss": true,
+        "cell_loss": true,
+        "stimulated": true
+      },
+      {
+        "name": "restore_contacts",
+        "excitation": true,
+        "contact_loss": false,
+        "cell_loss": true,
+        "stimulated": true
+      },
+      {
+        "name": "restore_cells",
+        "excitation": true,
+        "contact_loss": true,
+        "cell_loss": false,
+        "stimulated": true
+      }
+    ],
+    "target": {
+      "selector": "cell_type prefix KC",
+      "count": 4064,
+      "mapping_limit": "Not a validated match to a GAL4 driver expression pattern"
+    },
+    "parameters": {
+      "threshold_drop_mV": 1.0,
+      "outgoing_contact_loss_probability": 0.3,
+      "cell_silencing_probability": 0.17,
+      "basis": "Exploratory threshold/contact magnitudes; cell fraction loosely anchored to Ping2015Fig7B: approximately17% fewer labelled MB cells at40days with201y-driven A\u03b242, counted in selected confocal sections. Bernoulli silencing of all prefix-selectedKCs is an approximation, not matched-driver cell death, age mapping, or human severity.",
+      "cell_loss_reference": "https://doi.org/10.1371/journal.pgen.1005025.g007"
+    },
+    "biological_validation": {
+      "memory_retention": "not_tested",
+      "Kv4_mechanism": "not_tested",
+      "human_disease": "not_tested"
+    },
+    "source": {
+      "runner_sha256": "a2221d81a82e77fec05547d01e24e20d46124abff58f735938e2bdf044640c34",
+      "engine_sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e",
+      "brian2": "2.6.0",
+      "numpy": "1.23.2"
+    },
+    "scope": "All retained CNS nodes/edges instantiated. No AL wiring removed. Dopamine modulation, plasticity and memory retention absent. Counterfactual restorations are model bookkeeping, not therapies."
+  },
+  "paired_draws": [
+    {
+      "trial": 0,
+      "input_sha256": "1b78c55cc010be82f222169d338025b42e2e9cd652d45234a09a4bad4dd320bb",
+      "damage_sha256": "0437f3ab86ca6e76df8798f1cbb94f4302a56f0dff326819b4c4624f05fd4af2",
+      "injected_events": 107,
+      "silenced_KCs": 719
+    },
+    {
+      "trial": 1,
+      "input_sha256": "4933ee4b4357f49dd15227b02f897cbd573c37c629d3e64087c7ba4fbceca0d4",
+      "damage_sha256": "7ec3cc686d628fa44d9dc0673ba9b73c34a2a9ad55d392ad5a1b494e9ce7c305",
+      "injected_events": 117,
+      "silenced_KCs": 677
+    },
+    {
+      "trial": 2,
+      "input_sha256": "aa15c86f98146ffda07f734c16ddd926a7da286090fc8522ebf689854b5baa43",
+      "damage_sha256": "e5e89c5c0a85bfd6d58b09ccc06f175936a12c56573c2da33afb88c4d8273927",
+      "injected_events": 106,
+      "silenced_KCs": 687
+    },
+    {
+      "trial": 3,
+      "input_sha256": "84011d5fd7b0852709a6c0b78c557ee3e58cf63a77c701426e2b99a282435d90",
+      "damage_sha256": "3bf9322c710ed1f78ddcb928128021ed378c54b4c7a6570fc9ce7842886d0339",
+      "injected_events": 123,
+      "silenced_KCs": 667
+    },
+    {
+      "trial": 4,
+      "input_sha256": "be42eeb365b1ea8eb865a95d8add59b1298f2ae62eb7f7279be04d5327f0461d",
+      "damage_sha256": "47abb69c566e29dc46dd0ac1ed2775834dc773c8a71841ad27831ac63b0ba043",
+      "injected_events": 113,
+      "silenced_KCs": 718
+    },
+    {
+      "trial": 5,
+      "input_sha256": "5f1883c397e2ec25034f0f0efb1bc5dbf12284a104aa466c0be5a83dfbe1415e",
+      "damage_sha256": "457b5554da5fbe688f70849bbd30d66a5f2a321958dff95374bc884efe4d038e",
+      "injected_events": 116,
+      "silenced_KCs": 703
+    }
+  ],
+  "checks": [
+    {
+      "trial": 0,
+      "full_restoration_exactly_matches_baseline": true
+    },
+    {
+      "trial": 1,
+      "full_restoration_exactly_matches_baseline": true
+    },
+    {
+      "trial": 2,
+      "full_restoration_exactly_matches_baseline": true
+    },
+    {
+      "trial": 3,
+      "full_restoration_exactly_matches_baseline": true
+    },
+    {
+      "trial": 4,
+      "full_restoration_exactly_matches_baseline": true
+    },
+    {
+      "trial": 5,
+      "full_restoration_exactly_matches_baseline": true
+    }
+  ],
+  "interpretation": "New controlled runs of published engine with its default adaptation/AL assumptions and our shared KC-targeted perturbations. Not reproduction of paper cohorts, fitted disease severity, learned memory, or therapy validation."
+}

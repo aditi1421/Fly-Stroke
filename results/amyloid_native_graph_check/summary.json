@@ -1,0 +1,124 @@
+{
+  "status": "completed",
+  "dataset": {
+    "dataset": "male-cns:v1.0",
+    "release_date": "2026-06-08",
+    "announcement_date": "2026-09-03",
+    "source": "https://male-cns.janelia.org/download/",
+    "attribution": "FlyEM/HHMI Janelia, University of Cambridge, MRC LMB, Google Research",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "neuron_count": 166700,
+    "directed_connections": 25582938,
+    "synaptic_contacts": 124177617,
+    "excluded_segment_connections": 126273746,
+    "zero_sign_neurons": 11609,
+    "zero_weight_connections": 1113526,
+    "selection": "All non-null neuronal superclasses; includes uncertain classes. Excludes glia and unclassified segments. Both endpoints must be retained. No edge threshold; self-connections retained.",
+    "sign_assumptions": {
+      "acetylcholine": 1,
+      "gaba": -1,
+      "glutamate": -1,
+      "other_or_unknown": 0
+    },
+    "limitations": "Predicted transmitter signs are simplified. Modulatory/unknown outputs have zero dynamic weight but their contacts remain recorded. No receptor-specific effects, electrical synapses, disease mechanisms, or biological validation of transferred dynamics.",
+    "raw_files": {
+      "annotations": {
+        "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+        "bytes": 14483314,
+        "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+      },
+      "neurotransmitters": {
+        "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+        "bytes": 43282834,
+        "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+      },
+      "connections": {
+        "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+        "bytes": 1051241946,
+        "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+      }
+    },
+    "prepared_files": {
+      "neurons.csv": {
+        "bytes": 7985504,
+        "sha256": "f3c2aa74b04db9a03dd012f80ef3f5b480768f47329de9cf86e1e1f9174f28a8"
+      },
+      "connections.parquet": {
+        "bytes": 168271709,
+        "sha256": "14390483fc1e10846b6b77ed286cc81556bfa524f107d0aa1cd48611279bbbb2"
+      }
+    }
+  },
+  "repeats": 1,
+  "input": {
+    "body_ids": [
+      10176,
+      10208,
+      10390,
+      10561,
+      10613,
+      10670,
+      71476,
+      73492
+    ],
+    "rate_hz_per_cell": 150,
+    "dt_ms": 0.1,
+    "kind": "Recorded Bernoulli events; strong voltage kicks into 8 projection neurons, not physical odors",
+    "selection_source": "https://github.com/taehojo/adfly-connectome (DM1/DM4/VA2 ALPN protocol)"
+  },
+  "phases_seconds": {
+    "pre": 0.05,
+    "stimulus": 0.1,
+    "washout": 0.15
+  },
+  "conditions": [
+    {
+      "name": "no_input",
+      "excitation": false,
+      "contact_loss": false,
+      "cell_loss": false,
+      "stimulated": false
+    },
+    {
+      "name": "baseline",
+      "excitation": false,
+      "contact_loss": false,
+      "cell_loss": false,
+      "stimulated": true
+    }
+  ],
+  "target": {
+    "selector": "cell_type prefix KC",
+    "count": 4064,
+    "mapping_limit": "Not a validated match to a GAL4 driver expression pattern"
+  },
+  "parameters": {
+    "threshold_drop_mV": 1.0,
+    "outgoing_contact_loss_probability": 0.3,
+    "cell_silencing_probability": 0.17,
+    "basis": "Exploratory threshold/contact magnitudes; cell fraction loosely anchored to a specific MB amyloid fly measurement. Not fitted, age mapped, or human disease severity."
+  },
+  "source": {
+    "runner_sha256": "131146452b0fb0f5df19c98de278292c757e480365be1a0571dc5164356c97ce",
+    "engine_sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e",
+    "brian2": "2.6.0",
+    "numpy": "1.23.2"
+  },
+  "scope": "All retained CNS nodes/edges instantiated. No AL wiring removed. Dopamine modulation, plasticity and memory retention absent. Counterfactual restorations are model bookkeeping, not therapies.",
+  "checks": [
+    {
+      "trial": 0,
+      "condition": "no_input",
+      "silenced_cells_emit_zero": true,
+      "pre_input_spikes": 0,
+      "wall_seconds": 5.866100624989485
+    },
+    {
+      "trial": 0,
+      "condition": "baseline",
+      "silenced_cells_emit_zero": true,
+      "pre_input_spikes": 0,
+      "wall_seconds": 9.444854792003753
+    }
+  ]
+}

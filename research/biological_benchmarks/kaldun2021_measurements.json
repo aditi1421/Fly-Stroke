@@ -1,0 +1,2427 @@
+{
+  "source_url": "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.3001412.s008&type=supplementary",
+  "source_doi": "10.1371/journal.pbio.3001412.s008",
+  "retrieved_date": "2026-10-24",
+  "source_sha256": "5cf2e4ba34be9c4fb90506358cad523775bfd1c5017c020e8be8e6750d815f18",
+  "license": "CC BY 4.0; Kaldun et al. 2021 PLOS Biology",
+  "extraction": "Original numeric XLSX cells, not figure digitization; original workbook preserved unchanged",
+  "checks": "All group means and sample-SD/sqrt(n) SEMs independently recomputed and matched stored source summaries within 1e-10; some source summaries contain formulas and others literal values",
+  "split_status": "Proposed calibration/holdout roles, not a preregistration. No model fitting performed by this extractor.",
+  "cautions": [
+    "Nonsignificant acquisition contrasts do not demonstrate statistical equivalence.",
+    "Do not pool parental controls, assays, ages, genetic drivers or temperature protocols.",
+    "S1H 0 h/2 h reuse Figure 1C/1D; these were not duplicated in extraction.",
+    "A neurally defined simulated memory score is not this behavioral performance index.",
+    "Rows do not establish longitudinally paired experiments or independent biological batches."
+  ],
+  "groups": [
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1C",
+      "source_sheet": "Figure 1",
+      "source_range": "Q3:Q14",
+      "source_mean_cell": "R3",
+      "source_sem_cell": "S3",
+      "source_genotype_cell": "O3",
+      "genotype_verbatim": "UAS-Arc/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "aversive",
+      "retention_hours_label": 0,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "calibration candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 63.65883628659343,
+      "sem": 3.582803186694579,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "Q3",
+          "value": 66.92307692307692
+        },
+        {
+          "cell": "Q4",
+          "value": 50.52439580483356
+        },
+        {
+          "cell": "Q5",
+          "value": 70.0
+        },
+        {
+          "cell": "Q6",
+          "value": 55.3921568627451
+        },
+        {
+          "cell": "Q7",
+          "value": 72.72727272727272
+        },
+        {
+          "cell": "Q8",
+          "value": 65.311004784689
+        },
+        {
+          "cell": "Q9",
+          "value": 31.167337550316272
+        },
+        {
+          "cell": "Q10",
+          "value": 73.81818181818181
+        },
+        {
+          "cell": "Q11",
+          "value": 66.66666666666666
+        },
+        {
+          "cell": "Q12",
+          "value": 73.1474688187821
+        },
+        {
+          "cell": "Q13",
+          "value": 68.78402903811252
+        },
+        {
+          "cell": "Q14",
+          "value": 69.44444444444446
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1C",
+      "source_sheet": "Figure 1",
+      "source_range": "Q17:Q28",
+      "source_mean_cell": "R17",
+      "source_sem_cell": "S17",
+      "source_genotype_cell": "O17",
+      "genotype_verbatim": "Ok107-Gal4/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "aversive",
+      "retention_hours_label": 0,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "calibration candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 50.516567342696256,
+      "sem": 3.8575041930161706,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "Q17",
+          "value": 57.49472202674173
+        },
+        {
+          "cell": "Q18",
+          "value": 28.93617021276596
+        },
+        {
+          "cell": "Q19",
+          "value": 39.90461049284579
+        },
+        {
+          "cell": "Q20",
+          "value": 54.858934169278996
+        },
+        {
+          "cell": "Q21",
+          "value": 60.93514328808446
+        },
+        {
+          "cell": "Q22",
+          "value": 49.471458773784356
+        },
+        {
+          "cell": "Q23",
+          "value": 53.11355311355311
+        },
+        {
+          "cell": "Q24",
+          "value": 40.12605042016806
+        },
+        {
+          "cell": "Q25",
+          "value": 34.494773519163765
+        },
+        {
+          "cell": "Q26",
+          "value": 76.08695652173913
+        },
+        {
+          "cell": "Q27",
+          "value": 47.142857142857146
+        },
+        {
+          "cell": "Q28",
+          "value": 63.63357843137255
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1C",
+      "source_sheet": "Figure 1",
+      "source_range": "Q31:Q42",
+      "source_mean_cell": "R31",
+      "source_sem_cell": "S31",
+      "source_genotype_cell": "O31",
+      "genotype_verbatim": "Ok107 > Arc",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "aversive",
+      "retention_hours_label": 0,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "calibration candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 62.10267690519998,
+      "sem": 3.0185746538601537,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "Q31",
+          "value": 74.21052631578948
+        },
+        {
+          "cell": "Q32",
+          "value": 56.422287390029325
+        },
+        {
+          "cell": "Q33",
+          "value": 49.27536231884058
+        },
+        {
+          "cell": "Q34",
+          "value": 51.48541114058355
+        },
+        {
+          "cell": "Q35",
+          "value": 65.25974025974025
+        },
+        {
+          "cell": "Q36",
+          "value": 82.85714285714286
+        },
+        {
+          "cell": "Q37",
+          "value": 55.55102040816327
+        },
+        {
+          "cell": "Q38",
+          "value": 54.621848739495796
+        },
+        {
+          "cell": "Q39",
+          "value": 56.54468684025335
+        },
+        {
+          "cell": "Q40",
+          "value": 71.28747795414462
+        },
+        {
+          "cell": "Q41",
+          "value": 57.315936626281456
+        },
+        {
+          "cell": "Q42",
+          "value": 70.4006820119352
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1D",
+      "source_sheet": "Figure 1",
+      "source_range": "X3:X14",
+      "source_mean_cell": "Y3",
+      "source_sem_cell": "Z3",
+      "source_genotype_cell": "V3",
+      "genotype_verbatim": "UAS-Arc/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "aversive",
+      "retention_hours_label": 2,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "calibration candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 52.11571528522056,
+      "sem": 5.673099586209166,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "X3",
+          "value": 48.99845916795069
+        },
+        {
+          "cell": "X4",
+          "value": 11.061061061061062
+        },
+        {
+          "cell": "X5",
+          "value": 39.93325917686318
+        },
+        {
+          "cell": "X6",
+          "value": 44.57142857142857
+        },
+        {
+          "cell": "X7",
+          "value": 51.42857142857143
+        },
+        {
+          "cell": "X8",
+          "value": 29.384615384615387
+        },
+        {
+          "cell": "X9",
+          "value": 60.19047619047619
+        },
+        {
+          "cell": "X10",
+          "value": 81.25
+        },
+        {
+          "cell": "X11",
+          "value": 63.87096774193548
+        },
+        {
+          "cell": "X12",
+          "value": 71.42857142857143
+        },
+        {
+          "cell": "X13",
+          "value": 72.22222222222223
+        },
+        {
+          "cell": "X14",
+          "value": 51.04895104895105
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1D",
+      "source_sheet": "Figure 1",
+      "source_range": "X17:X28",
+      "source_mean_cell": "Y17",
+      "source_sem_cell": "Z17",
+      "source_genotype_cell": "V17",
+      "genotype_verbatim": "Ok107-Gal4/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "aversive",
+      "retention_hours_label": 2,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "calibration candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 57.12583165167455,
+      "sem": 4.47387526138504,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "X17",
+          "value": 63.675213675213676
+        },
+        {
+          "cell": "X18",
+          "value": 35.9775641025641
+        },
+        {
+          "cell": "X19",
+          "value": 69.31818181818181
+        },
+        {
+          "cell": "X20",
+          "value": 30.20979020979021
+        },
+        {
+          "cell": "X21",
+          "value": 43.80952380952381
+        },
+        {
+          "cell": "X22",
+          "value": 58.94736842105263
+        },
+        {
+          "cell": "X23",
+          "value": 49.43181818181819
+        },
+        {
+          "cell": "X24",
+          "value": 69.54838709677419
+        },
+        {
+          "cell": "X25",
+          "value": 60.54018445322793
+        },
+        {
+          "cell": "X26",
+          "value": 73.14285714285714
+        },
+        {
+          "cell": "X27",
+          "value": 80.9090909090909
+        },
+        {
+          "cell": "X28",
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1D",
+      "source_sheet": "Figure 1",
+      "source_range": "X31:X42",
+      "source_mean_cell": "Y31",
+      "source_sem_cell": "Z31",
+      "source_genotype_cell": "V31",
+      "genotype_verbatim": "Ok107 > Arc",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "aversive",
+      "retention_hours_label": 2,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "calibration candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 22.10109410730238,
+      "sem": 7.016764447548761,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "X31",
+          "value": 34.82142857142857
+        },
+        {
+          "cell": "X32",
+          "value": 12.162162162162161
+        },
+        {
+          "cell": "X33",
+          "value": 14.035087719298247
+        },
+        {
+          "cell": "X34",
+          "value": 30.43859649122807
+        },
+        {
+          "cell": "X35",
+          "value": 7.336956521739129
+        },
+        {
+          "cell": "X36",
+          "value": -17.413793103448278
+        },
+        {
+          "cell": "X37",
+          "value": 29.45945945945946
+        },
+        {
+          "cell": "X38",
+          "value": -20.833333333333332
+        },
+        {
+          "cell": "X39",
+          "value": 53.97849462365591
+        },
+        {
+          "cell": "X40",
+          "value": 56.140350877192986
+        },
+        {
+          "cell": "X41",
+          "value": 36.66666666666667
+        },
+        {
+          "cell": "X42",
+          "value": 28.42105263157895
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1K",
+      "source_sheet": "Figure 1",
+      "source_range": "X56:X67",
+      "source_mean_cell": "Y56",
+      "source_sem_cell": "Z56",
+      "source_genotype_cell": "V56",
+      "genotype_verbatim": "UAS-Arc/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 0,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "calibration candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 63.64088136481272,
+      "sem": 7.234163734273364,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "X56",
+          "value": 30.523627075351214
+        },
+        {
+          "cell": "X57",
+          "value": 37.83783783783784
+        },
+        {
+          "cell": "X58",
+          "value": 49.759903961584634
+        },
+        {
+          "cell": "X59",
+          "value": 71.42857142857143
+        },
+        {
+          "cell": "X60",
+          "value": 100.0
+        },
+        {
+          "cell": "X61",
+          "value": 17.307692307692307
+        },
+        {
+          "cell": "X62",
+          "value": 80.9090909090909
+        },
+        {
+          "cell": "X63",
+          "value": 88.88888888888889
+        },
+        {
+          "cell": "X64",
+          "value": 77.77777777777777
+        },
+        {
+          "cell": "X65",
+          "value": 58.92857142857143
+        },
+        {
+          "cell": "X66",
+          "value": 75.32861476238625
+        },
+        {
+          "cell": "X67",
+          "value": 75.0
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1K",
+      "source_sheet": "Figure 1",
+      "source_range": "X70:X81",
+      "source_mean_cell": "Y70",
+      "source_sem_cell": "Z70",
+      "source_genotype_cell": "V70",
+      "genotype_verbatim": "Ok107-Gal4/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 0,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "calibration candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 70.16894927236967,
+      "sem": 4.422070252134189,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "X70",
+          "value": 36.82432432432432
+        },
+        {
+          "cell": "X71",
+          "value": 60.0
+        },
+        {
+          "cell": "X72",
+          "value": 94.11764705882354
+        },
+        {
+          "cell": "X73",
+          "value": 59.42857142857143
+        },
+        {
+          "cell": "X74",
+          "value": 66.66666666666667
+        },
+        {
+          "cell": "X75",
+          "value": 67.5
+        },
+        {
+          "cell": "X76",
+          "value": 78.93277893277893
+        },
+        {
+          "cell": "X77",
+          "value": 83.80952380952381
+        },
+        {
+          "cell": "X78",
+          "value": 63.86530843237125
+        },
+        {
+          "cell": "X79",
+          "value": 69.72176759410802
+        },
+        {
+          "cell": "X80",
+          "value": 88.88888888888889
+        },
+        {
+          "cell": "X81",
+          "value": 72.27191413237925
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1K",
+      "source_sheet": "Figure 1",
+      "source_range": "X84:X95",
+      "source_mean_cell": "Y84",
+      "source_sem_cell": "Z84",
+      "source_genotype_cell": "V84",
+      "genotype_verbatim": "Ok107 > Arc",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 0,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "calibration candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 69.01444002422306,
+      "sem": 6.385473144225183,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "X84",
+          "value": 34.58694953391192
+        },
+        {
+          "cell": "X85",
+          "value": 40.0
+        },
+        {
+          "cell": "X86",
+          "value": 100.0
+        },
+        {
+          "cell": "X87",
+          "value": 72.22222222222223
+        },
+        {
+          "cell": "X88",
+          "value": 100.0
+        },
+        {
+          "cell": "X89",
+          "value": 75.0
+        },
+        {
+          "cell": "X90",
+          "value": 64.05895691609977
+        },
+        {
+          "cell": "X91",
+          "value": 86.5945945945946
+        },
+        {
+          "cell": "X92",
+          "value": 39.63607594936709
+        },
+        {
+          "cell": "X93",
+          "value": 73.93162393162393
+        },
+        {
+          "cell": "X94",
+          "value": 62.142857142857146
+        },
+        {
+          "cell": "X95",
+          "value": 80.0
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1L",
+      "source_sheet": "Figure 1",
+      "source_range": "AE56:AE67",
+      "source_mean_cell": "AF56",
+      "source_sem_cell": "AG56",
+      "source_genotype_cell": "AC56",
+      "genotype_verbatim": "UAS-Arc/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 2,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "calibration candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 64.20761807772952,
+      "sem": 4.767209649178805,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "AE56",
+          "value": 75.0
+        },
+        {
+          "cell": "AE57",
+          "value": 81.25
+        },
+        {
+          "cell": "AE58",
+          "value": 52.38095238095238
+        },
+        {
+          "cell": "AE59",
+          "value": 56.66666666666667
+        },
+        {
+          "cell": "AE60",
+          "value": 24.053826745164002
+        },
+        {
+          "cell": "AE61",
+          "value": 77.77777777777777
+        },
+        {
+          "cell": "AE62",
+          "value": 70.63492063492063
+        },
+        {
+          "cell": "AE63",
+          "value": 58.333333333333336
+        },
+        {
+          "cell": "AE64",
+          "value": 55.0
+        },
+        {
+          "cell": "AE65",
+          "value": 83.33333333333334
+        },
+        {
+          "cell": "AE66",
+          "value": 63.333333333333336
+        },
+        {
+          "cell": "AE67",
+          "value": 72.72727272727272
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1L",
+      "source_sheet": "Figure 1",
+      "source_range": "AE70:AE81",
+      "source_mean_cell": "AF70",
+      "source_sem_cell": "AG70",
+      "source_genotype_cell": "AC70",
+      "genotype_verbatim": "Ok107-Gal4/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 2,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "calibration candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 52.83946807113187,
+      "sem": 4.732382390790192,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "AE70",
+          "value": 49.014778325123146
+        },
+        {
+          "cell": "AE71",
+          "value": 72.60416666666666
+        },
+        {
+          "cell": "AE72",
+          "value": 34.294871794871796
+        },
+        {
+          "cell": "AE73",
+          "value": 50.18315018315018
+        },
+        {
+          "cell": "AE74",
+          "value": 15.376676986584107
+        },
+        {
+          "cell": "AE75",
+          "value": 60.714285714285715
+        },
+        {
+          "cell": "AE76",
+          "value": 69.01960784313725
+        },
+        {
+          "cell": "AE77",
+          "value": 47.195767195767196
+        },
+        {
+          "cell": "AE78",
+          "value": 53.246753246753244
+        },
+        {
+          "cell": "AE79",
+          "value": 54.76190476190476
+        },
+        {
+          "cell": "AE80",
+          "value": 53.94736842105263
+        },
+        {
+          "cell": "AE81",
+          "value": 73.71428571428572
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1L",
+      "source_sheet": "Figure 1",
+      "source_range": "AE84:AE95",
+      "source_mean_cell": "AF84",
+      "source_sem_cell": "AG84",
+      "source_genotype_cell": "AC84",
+      "genotype_verbatim": "Ok107 > Arc",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 2,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "calibration candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 40.05022622728573,
+      "sem": 5.9415117129539095,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "AE84",
+          "value": 11.888111888111887
+        },
+        {
+          "cell": "AE85",
+          "value": 61.90476190476191
+        },
+        {
+          "cell": "AE86",
+          "value": 36.95652173913044
+        },
+        {
+          "cell": "AE87",
+          "value": 62.63736263736264
+        },
+        {
+          "cell": "AE88",
+          "value": 26.388888888888886
+        },
+        {
+          "cell": "AE89",
+          "value": 45.23809523809524
+        },
+        {
+          "cell": "AE90",
+          "value": 42.857142857142854
+        },
+        {
+          "cell": "AE91",
+          "value": -5.714285714285714
+        },
+        {
+          "cell": "AE92",
+          "value": 45.0
+        },
+        {
+          "cell": "AE93",
+          "value": 52.38095238095238
+        },
+        {
+          "cell": "AE94",
+          "value": 59.3984962406015
+        },
+        {
+          "cell": "AE95",
+          "value": 41.66666666666667
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1M",
+      "source_sheet": "Figure 1",
+      "source_range": "AL56:AL67",
+      "source_mean_cell": "AM56",
+      "source_sem_cell": "AN56",
+      "source_genotype_cell": "AJ56",
+      "genotype_verbatim": "UAS-Arc/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 6,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "held-out prediction candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 55.761573050272744,
+      "sem": 3.1119131767997454,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "AL56",
+          "value": 54.66666666666667
+        },
+        {
+          "cell": "AL57",
+          "value": 54.76190476190476
+        },
+        {
+          "cell": "AL58",
+          "value": 50.0
+        },
+        {
+          "cell": "AL59",
+          "value": 75.0
+        },
+        {
+          "cell": "AL60",
+          "value": 46.42857142857143
+        },
+        {
+          "cell": "AL61",
+          "value": 46.66666666666667
+        },
+        {
+          "cell": "AL62",
+          "value": 66.66666666666667
+        },
+        {
+          "cell": "AL63",
+          "value": 60.0
+        },
+        {
+          "cell": "AL64",
+          "value": 59.59752321981425
+        },
+        {
+          "cell": "AL65",
+          "value": 63.333333333333336
+        },
+        {
+          "cell": "AL66",
+          "value": 58.333333333333336
+        },
+        {
+          "cell": "AL67",
+          "value": 33.684210526315795
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1M",
+      "source_sheet": "Figure 1",
+      "source_range": "AL70:AL81",
+      "source_mean_cell": "AM70",
+      "source_sem_cell": "AN70",
+      "source_genotype_cell": "AJ70",
+      "genotype_verbatim": "Ok107-Gal4/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 6,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "held-out prediction candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 59.73571114875463,
+      "sem": 6.409937669420422,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "AL70",
+          "value": 73.21428571428572
+        },
+        {
+          "cell": "AL71",
+          "value": 32.142857142857146
+        },
+        {
+          "cell": "AL72",
+          "value": 30.555555555555557
+        },
+        {
+          "cell": "AL73",
+          "value": 67.5
+        },
+        {
+          "cell": "AL74",
+          "value": 54.03726708074534
+        },
+        {
+          "cell": "AL75",
+          "value": 83.33333333333334
+        },
+        {
+          "cell": "AL76",
+          "value": 48.484848484848484
+        },
+        {
+          "cell": "AL77",
+          "value": 100.0
+        },
+        {
+          "cell": "AL78",
+          "value": 42.40165631469979
+        },
+        {
+          "cell": "AL79",
+          "value": 55.0
+        },
+        {
+          "cell": "AL80",
+          "value": 85.71428571428572
+        },
+        {
+          "cell": "AL81",
+          "value": 44.44444444444444
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1M",
+      "source_sheet": "Figure 1",
+      "source_range": "AL84:AL95",
+      "source_mean_cell": "AM84",
+      "source_sem_cell": "AN84",
+      "source_genotype_cell": "AJ84",
+      "genotype_verbatim": "Ok107 > Arc",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 6,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "held-out prediction candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 22.379449254449256,
+      "sem": 7.753022274386918,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "AL84",
+          "value": 32.142857142857146
+        },
+        {
+          "cell": "AL85",
+          "value": 25.974025974025974
+        },
+        {
+          "cell": "AL86",
+          "value": 25.0
+        },
+        {
+          "cell": "AL87",
+          "value": 42.5
+        },
+        {
+          "cell": "AL88",
+          "value": 0.0
+        },
+        {
+          "cell": "AL89",
+          "value": 60.0
+        },
+        {
+          "cell": "AL90",
+          "value": 35.714285714285715
+        },
+        {
+          "cell": "AL91",
+          "value": 66.66666666666667
+        },
+        {
+          "cell": "AL92",
+          "value": -2.7777777777777786
+        },
+        {
+          "cell": "AL93",
+          "value": 10.0
+        },
+        {
+          "cell": "AL94",
+          "value": -10.0
+        },
+        {
+          "cell": "AL95",
+          "value": -16.666666666666668
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1N",
+      "source_sheet": "Figure 1",
+      "source_range": "J110:J121",
+      "source_mean_cell": "K110",
+      "source_sem_cell": "L110",
+      "source_genotype_cell": "H110",
+      "genotype_verbatim": "UAS-Arc/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 24,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "held-out prediction candidate; distinct feeding protocol",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 59.49922884133411,
+      "sem": 4.233943493152676,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "J110",
+          "value": 80.0
+        },
+        {
+          "cell": "J111",
+          "value": 83.33333333333334
+        },
+        {
+          "cell": "J112",
+          "value": 55.0
+        },
+        {
+          "cell": "J113",
+          "value": 70.0
+        },
+        {
+          "cell": "J114",
+          "value": 52.77777777777778
+        },
+        {
+          "cell": "J115",
+          "value": 75.0
+        },
+        {
+          "cell": "J116",
+          "value": 38.095238095238095
+        },
+        {
+          "cell": "J117",
+          "value": 45.55555555555556
+        },
+        {
+          "cell": "J118",
+          "value": 46.66666666666667
+        },
+        {
+          "cell": "J119",
+          "value": 51.42857142857143
+        },
+        {
+          "cell": "J120",
+          "value": 64.21052631578948
+        },
+        {
+          "cell": "J121",
+          "value": 51.92307692307692
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1N",
+      "source_sheet": "Figure 1",
+      "source_range": "J124:J135",
+      "source_mean_cell": "K124",
+      "source_sem_cell": "L124",
+      "source_genotype_cell": "H124",
+      "genotype_verbatim": "Ok107-Gal4/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 24,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "held-out prediction candidate; distinct feeding protocol",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 55.8573003793592,
+      "sem": 3.9939725946756224,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "J124",
+          "value": 54.76190476190476
+        },
+        {
+          "cell": "J125",
+          "value": 37.77777777777778
+        },
+        {
+          "cell": "J126",
+          "value": 35.22727272727273
+        },
+        {
+          "cell": "J127",
+          "value": 31.428571428571427
+        },
+        {
+          "cell": "J128",
+          "value": 66.66666666666667
+        },
+        {
+          "cell": "J129",
+          "value": 66.66666666666667
+        },
+        {
+          "cell": "J130",
+          "value": 65.71428571428572
+        },
+        {
+          "cell": "J131",
+          "value": 71.42857142857143
+        },
+        {
+          "cell": "J132",
+          "value": 58.333333333333336
+        },
+        {
+          "cell": "J133",
+          "value": 67.77777777777777
+        },
+        {
+          "cell": "J134",
+          "value": 53.393665158371036
+        },
+        {
+          "cell": "J135",
+          "value": 61.111111111111114
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "1N",
+      "source_sheet": "Figure 1",
+      "source_range": "J138:J149",
+      "source_mean_cell": "K138",
+      "source_sem_cell": "L138",
+      "source_genotype_cell": "H138",
+      "genotype_verbatim": "Ok107 > Arc",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 24,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "held-out prediction candidate; distinct feeding protocol",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 5.6576113097852225,
+      "sem": 8.125498071350963,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "J138",
+          "value": -5.555555555555555
+        },
+        {
+          "cell": "J139",
+          "value": -15.0
+        },
+        {
+          "cell": "J140",
+          "value": 63.333333333333336
+        },
+        {
+          "cell": "J141",
+          "value": 0.0
+        },
+        {
+          "cell": "J142",
+          "value": 40.0
+        },
+        {
+          "cell": "J143",
+          "value": -50.0
+        },
+        {
+          "cell": "J144",
+          "value": 0.0
+        },
+        {
+          "cell": "J145",
+          "value": 6.818181818181817
+        },
+        {
+          "cell": "J146",
+          "value": -7.142857142857143
+        },
+        {
+          "cell": "J147",
+          "value": 0.0
+        },
+        {
+          "cell": "J148",
+          "value": 19.565217391304348
+        },
+        {
+          "cell": "J149",
+          "value": 15.873015873015872
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "S1H",
+      "source_sheet": "S1",
+      "source_range": "Q59:Q70",
+      "source_mean_cell": "R59",
+      "source_sem_cell": "S59",
+      "source_genotype_cell": "O59",
+      "genotype_verbatim": "UAS-Arc/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "aversive",
+      "retention_hours_label": 4,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "held-out prediction candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 48.185692536021484,
+      "sem": 3.5029560841839533,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "Q59",
+          "value": 43.125
+        },
+        {
+          "cell": "Q60",
+          "value": 37.77777777777778
+        },
+        {
+          "cell": "Q61",
+          "value": 65.9090909090909
+        },
+        {
+          "cell": "Q62",
+          "value": 35.41666666666667
+        },
+        {
+          "cell": "Q63",
+          "value": 43.75
+        },
+        {
+          "cell": "Q64",
+          "value": 62.77777777777778
+        },
+        {
+          "cell": "Q65",
+          "value": 34.58646616541353
+        },
+        {
+          "cell": "Q66",
+          "value": 69.23076923076923
+        },
+        {
+          "cell": "Q67",
+          "value": 50.0
+        },
+        {
+          "cell": "Q68",
+          "value": 36.60714285714286
+        },
+        {
+          "cell": "Q69",
+          "value": 47.61904761904762
+        },
+        {
+          "cell": "Q70",
+          "value": 51.42857142857143
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "S1H",
+      "source_sheet": "S1",
+      "source_range": "Q73:Q84",
+      "source_mean_cell": "R73",
+      "source_sem_cell": "S73",
+      "source_genotype_cell": "O73",
+      "genotype_verbatim": "Ok107-Gal4/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "aversive",
+      "retention_hours_label": 4,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "held-out prediction candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 51.458659756030684,
+      "sem": 4.494091923870933,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "Q73",
+          "value": 50.256410256410255
+        },
+        {
+          "cell": "Q74",
+          "value": 32.38636363636364
+        },
+        {
+          "cell": "Q75",
+          "value": 47.46922024623803
+        },
+        {
+          "cell": "Q76",
+          "value": 41.04609929078014
+        },
+        {
+          "cell": "Q77",
+          "value": 58.888888888888886
+        },
+        {
+          "cell": "Q78",
+          "value": 62.82051282051282
+        },
+        {
+          "cell": "Q79",
+          "value": 39.00709219858156
+        },
+        {
+          "cell": "Q80",
+          "value": 72.21052631578948
+        },
+        {
+          "cell": "Q81",
+          "value": 57.27272727272727
+        },
+        {
+          "cell": "Q82",
+          "value": 26.666666666666668
+        },
+        {
+          "cell": "Q83",
+          "value": 50.505050505050505
+        },
+        {
+          "cell": "Q84",
+          "value": 78.97435897435898
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "S1H",
+      "source_sheet": "S1",
+      "source_range": "Q87:Q98",
+      "source_mean_cell": "R87",
+      "source_sem_cell": "S87",
+      "source_genotype_cell": "O87",
+      "genotype_verbatim": "Ok107 > Arc",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "aversive",
+      "retention_hours_label": 4,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "held-out prediction candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 7.475668806997666,
+      "sem": 5.036801036490637,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "Q87",
+          "value": -5.147058823529413
+        },
+        {
+          "cell": "Q88",
+          "value": 43.75
+        },
+        {
+          "cell": "Q89",
+          "value": 17.51094434021263
+        },
+        {
+          "cell": "Q90",
+          "value": -3.3618984838497035
+        },
+        {
+          "cell": "Q91",
+          "value": 9.956709956709958
+        },
+        {
+          "cell": "Q92",
+          "value": 10.545454545454547
+        },
+        {
+          "cell": "Q93",
+          "value": -3.3205619412515963
+        },
+        {
+          "cell": "Q94",
+          "value": -25.0
+        },
+        {
+          "cell": "Q95",
+          "value": 7.142857142857143
+        },
+        {
+          "cell": "Q96",
+          "value": 0.0
+        },
+        {
+          "cell": "Q97",
+          "value": 10.0
+        },
+        {
+          "cell": "Q98",
+          "value": 27.63157894736842
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "S1H",
+      "source_sheet": "S1",
+      "source_range": "Q111:Q122",
+      "source_mean_cell": "R111",
+      "source_sem_cell": "S111",
+      "source_genotype_cell": "O111",
+      "genotype_verbatim": "UAS-Arc/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "aversive",
+      "retention_hours_label": 6,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "held-out prediction candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 40.05945923128586,
+      "sem": 2.407291469019946,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "Q111",
+          "value": 29.824561403508774
+        },
+        {
+          "cell": "Q112",
+          "value": 41.75438596491228
+        },
+        {
+          "cell": "Q113",
+          "value": 50.607287449392715
+        },
+        {
+          "cell": "Q114",
+          "value": 38.095238095238095
+        },
+        {
+          "cell": "Q115",
+          "value": 49.2063492063492
+        },
+        {
+          "cell": "Q116",
+          "value": 46.19047619047619
+        },
+        {
+          "cell": "Q117",
+          "value": 40.38461538461539
+        },
+        {
+          "cell": "Q118",
+          "value": 46.42857142857143
+        },
+        {
+          "cell": "Q119",
+          "value": 23.333333333333332
+        },
+        {
+          "cell": "Q120",
+          "value": 32.5077399380805
+        },
+        {
+          "cell": "Q121",
+          "value": 36.66666666666667
+        },
+        {
+          "cell": "Q122",
+          "value": 45.714285714285715
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "S1H",
+      "source_sheet": "S1",
+      "source_range": "Q125:Q136",
+      "source_mean_cell": "R125",
+      "source_sem_cell": "S125",
+      "source_genotype_cell": "O125",
+      "genotype_verbatim": "Ok107-Gal4/+",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "aversive",
+      "retention_hours_label": 6,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "held-out prediction candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 42.07104034718741,
+      "sem": 1.2187520383381336,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "Q125",
+          "value": 34.285714285714285
+        },
+        {
+          "cell": "Q126",
+          "value": 38.84615384615385
+        },
+        {
+          "cell": "Q127",
+          "value": 43.58974358974359
+        },
+        {
+          "cell": "Q128",
+          "value": 49.14529914529915
+        },
+        {
+          "cell": "Q129",
+          "value": 41.42857142857143
+        },
+        {
+          "cell": "Q130",
+          "value": 45.264259549973836
+        },
+        {
+          "cell": "Q131",
+          "value": 48.8479262672811
+        },
+        {
+          "cell": "Q132",
+          "value": 38.82783882783883
+        },
+        {
+          "cell": "Q133",
+          "value": 41.42857142857143
+        },
+        {
+          "cell": "Q134",
+          "value": 41.66666666666667
+        },
+        {
+          "cell": "Q135",
+          "value": 41.66666666666667
+        },
+        {
+          "cell": "Q136",
+          "value": 39.85507246376812
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "S1H",
+      "source_sheet": "S1",
+      "source_range": "Q139:Q150",
+      "source_mean_cell": "R139",
+      "source_sem_cell": "S139",
+      "source_genotype_cell": "O139",
+      "genotype_verbatim": "Ok107 > Arc",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "aversive",
+      "retention_hours_label": 6,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "none",
+      "proposed_use": "held-out prediction candidate",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 12,
+      "mean": 1.692798419003331,
+      "sem": 4.449487243108588,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "Q139",
+          "value": 11.538461538461538
+        },
+        {
+          "cell": "Q140",
+          "value": 9.814323607427056
+        },
+        {
+          "cell": "Q141",
+          "value": 19.444444444444443
+        },
+        {
+          "cell": "Q142",
+          "value": -14.338235294117649
+        },
+        {
+          "cell": "Q143",
+          "value": -5.383022774327123
+        },
+        {
+          "cell": "Q144",
+          "value": 14.052287581699346
+        },
+        {
+          "cell": "Q145",
+          "value": 8.514492753623188
+        },
+        {
+          "cell": "Q146",
+          "value": -6.363636363636363
+        },
+        {
+          "cell": "Q147",
+          "value": -9.523809523809526
+        },
+        {
+          "cell": "Q148",
+          "value": -32.5
+        },
+        {
+          "cell": "Q149",
+          "value": 8.391608391608392
+        },
+        {
+          "cell": "Q150",
+          "value": 16.666666666666668
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "3A",
+      "source_sheet": "Figure 3",
+      "source_range": "C3:C12",
+      "source_mean_cell": "D3",
+      "source_sem_cell": "E3",
+      "source_genotype_cell": "A3",
+      "genotype_verbatim": "c150-Gal4, MB-Gal80ts",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 0,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "21–22 C",
+      "proposed_use": "held-out intervention candidate; different driver from Figure 1",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 10,
+      "mean": 42.24919899683233,
+      "sem": 4.206305873760142,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "C3",
+          "value": 35.714285714285715
+        },
+        {
+          "cell": "C4",
+          "value": 24.41860465116279
+        },
+        {
+          "cell": "C5",
+          "value": 50.55555555555556
+        },
+        {
+          "cell": "C6",
+          "value": 52.142857142857146
+        },
+        {
+          "cell": "C7",
+          "value": 18.666666666666668
+        },
+        {
+          "cell": "C8",
+          "value": 46.59863945578232
+        },
+        {
+          "cell": "C9",
+          "value": 53.38235294117647
+        },
+        {
+          "cell": "C10",
+          "value": 59.83739837398374
+        },
+        {
+          "cell": "C11",
+          "value": 45.63706563706564
+        },
+        {
+          "cell": "C12",
+          "value": 35.538563829787236
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "3A",
+      "source_sheet": "Figure 3",
+      "source_range": "C15:C22",
+      "source_mean_cell": "D15",
+      "source_sem_cell": "E15",
+      "source_genotype_cell": "A15",
+      "genotype_verbatim": "c150-Gal4, MB-Gal80ts",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 6,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "21–22 C",
+      "proposed_use": "held-out intervention candidate; different driver from Figure 1",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 8,
+      "mean": 22.81058919077704,
+      "sem": 1.317487130090057,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "C15",
+          "value": 20.520050125313283
+        },
+        {
+          "cell": "C16",
+          "value": 25.357142857142858
+        },
+        {
+          "cell": "C17",
+          "value": 19.29824561403509
+        },
+        {
+          "cell": "C18",
+          "value": 17.857142857142858
+        },
+        {
+          "cell": "C19",
+          "value": 25.91886269070735
+        },
+        {
+          "cell": "C20",
+          "value": 25.484261501210653
+        },
+        {
+          "cell": "C21",
+          "value": 27.821969696969695
+        },
+        {
+          "cell": "C22",
+          "value": 20.227038183694532
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "3A",
+      "source_sheet": "Figure 3",
+      "source_range": "C25:C33",
+      "source_mean_cell": "D25",
+      "source_sem_cell": "E25",
+      "source_genotype_cell": "A25",
+      "genotype_verbatim": "c150-Gal4, MB-Gal80ts",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 6,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "2 h at 30 C immediately after training, then 4 h at 21–22 C",
+      "proposed_use": "held-out intervention candidate; different driver from Figure 1",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 9,
+      "mean": 20.549792110112556,
+      "sem": 3.184440258174961,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "C25",
+          "value": 31.25
+        },
+        {
+          "cell": "C26",
+          "value": 8.206686930091186
+        },
+        {
+          "cell": "C27",
+          "value": 17.046193884189982
+        },
+        {
+          "cell": "C28",
+          "value": 20.923076923076923
+        },
+        {
+          "cell": "C29",
+          "value": 4.717296754767481
+        },
+        {
+          "cell": "C30",
+          "value": 23.607427055702917
+        },
+        {
+          "cell": "C31",
+          "value": 29.633867276887873
+        },
+        {
+          "cell": "C32",
+          "value": 30.802968960863698
+        },
+        {
+          "cell": "C33",
+          "value": 18.760611205432937
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "3B",
+      "source_sheet": "Figure 3",
+      "source_range": "J3:J10",
+      "source_mean_cell": "K3",
+      "source_sem_cell": "L3",
+      "source_genotype_cell": "H3",
+      "genotype_verbatim": "mb247-lexA,lexAop-Arc; MB-Gal80ts, UAS-shi",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 0,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "21–22 C",
+      "proposed_use": "held-out intervention candidate; different driver from Figure 1",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 8,
+      "mean": 39.36881769341148,
+      "sem": 7.003225455546444,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "J3",
+          "value": 10.436432637571158
+        },
+        {
+          "cell": "J4",
+          "value": 17.846153846153847
+        },
+        {
+          "cell": "J5",
+          "value": 48.24414715719063
+        },
+        {
+          "cell": "J6",
+          "value": 23.273273273273272
+        },
+        {
+          "cell": "J7",
+          "value": 55.68627450980392
+        },
+        {
+          "cell": "J8",
+          "value": 53.00751879699248
+        },
+        {
+          "cell": "J9",
+          "value": 41.56785243741765
+        },
+        {
+          "cell": "J10",
+          "value": 64.88888888888889
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "3B",
+      "source_sheet": "Figure 3",
+      "source_range": "J13:J20",
+      "source_mean_cell": "K13",
+      "source_sem_cell": "L13",
+      "source_genotype_cell": "H13",
+      "genotype_verbatim": "mb247-lexA,lexAop-Arc; MB-Gal80ts, UAS-shi",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 6,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "21–22 C",
+      "proposed_use": "held-out intervention candidate; different driver from Figure 1",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 8,
+      "mean": 6.524009799409166,
+      "sem": 3.5848943374914977,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "J13",
+          "value": -7.19020907700153
+        },
+        {
+          "cell": "J14",
+          "value": 13.426265590608951
+        },
+        {
+          "cell": "J15",
+          "value": -3.7606837606837606
+        },
+        {
+          "cell": "J16",
+          "value": -2.148148148148148
+        },
+        {
+          "cell": "J17",
+          "value": 10.841836734693878
+        },
+        {
+          "cell": "J18",
+          "value": 20.80808080808081
+        },
+        {
+          "cell": "J19",
+          "value": 15.333333333333332
+        },
+        {
+          "cell": "J20",
+          "value": 4.8816029143897985
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "3B",
+      "source_sheet": "Figure 3",
+      "source_range": "J23:J38",
+      "source_mean_cell": "K23",
+      "source_sem_cell": "L23",
+      "source_genotype_cell": "H23",
+      "genotype_verbatim": "mb247-lexA,lexAop-Arc; MB-Gal80ts, UAS-shi",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 6,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "2 h at 30 C immediately after training, then 4 h at 21–22 C",
+      "proposed_use": "held-out intervention candidate; different driver from Figure 1",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 16,
+      "mean": 9.84943377429968,
+      "sem": 3.6025065228009407,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "J23",
+          "value": 18.75
+        },
+        {
+          "cell": "J24",
+          "value": 1.1680726800778718
+        },
+        {
+          "cell": "J25",
+          "value": 2.6766125493637567
+        },
+        {
+          "cell": "J26",
+          "value": -22.5
+        },
+        {
+          "cell": "J27",
+          "value": -6.388888888888889
+        },
+        {
+          "cell": "J28",
+          "value": 28.842105263157897
+        },
+        {
+          "cell": "J29",
+          "value": 29.09090909090909
+        },
+        {
+          "cell": "J30",
+          "value": 7.35444330949949
+        },
+        {
+          "cell": "J31",
+          "value": 20.754716981132077
+        },
+        {
+          "cell": "J32",
+          "value": 23.64253393665158
+        },
+        {
+          "cell": "J33",
+          "value": 10.809018567639257
+        },
+        {
+          "cell": "J34",
+          "value": 3.3333333333333335
+        },
+        {
+          "cell": "J35",
+          "value": 16.120489904005296
+        },
+        {
+          "cell": "J36",
+          "value": 15.380549682875266
+        },
+        {
+          "cell": "J37",
+          "value": 18.004459308807135
+        },
+        {
+          "cell": "J38",
+          "value": -9.447415329768273
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "3C",
+      "source_sheet": "Figure 3",
+      "source_range": "Q3:Q10",
+      "source_mean_cell": "R3",
+      "source_sem_cell": "S3",
+      "source_genotype_cell": "O3",
+      "genotype_verbatim": "c150-Gal4, MB-Gal80ts; UAS-shi, mb247-lexA,lexAop-Arc",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 0,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "21–22 C",
+      "proposed_use": "held-out intervention candidate; different driver from Figure 1",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 8,
+      "mean": 31.126531741080594,
+      "sem": 7.022562447013428,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "Q3",
+          "value": 25.5420054200542
+        },
+        {
+          "cell": "Q4",
+          "value": -7.82312925170068
+        },
+        {
+          "cell": "Q5",
+          "value": 16.10381488430269
+        },
+        {
+          "cell": "Q6",
+          "value": 35.99537037037037
+        },
+        {
+          "cell": "Q7",
+          "value": 56.18357487922705
+        },
+        {
+          "cell": "Q8",
+          "value": 44.53734671125976
+        },
+        {
+          "cell": "Q9",
+          "value": 35.714285714285715
+        },
+        {
+          "cell": "Q10",
+          "value": 42.758985200845665
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "3C",
+      "source_sheet": "Figure 3",
+      "source_range": "Q13:Q20",
+      "source_mean_cell": "R13",
+      "source_sem_cell": "S13",
+      "source_genotype_cell": "O13",
+      "genotype_verbatim": "c150-Gal4, MB-Gal80ts; UAS-shi, mb247-lexA,lexAop-Arc",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 6,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "21–22 C",
+      "proposed_use": "held-out intervention candidate; different driver from Figure 1",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 8,
+      "mean": 6.34381042887126,
+      "sem": 4.828466272392168,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "Q13",
+          "value": 23.91304347826087
+        },
+        {
+          "cell": "Q14",
+          "value": -12.797619047619047
+        },
+        {
+          "cell": "Q15",
+          "value": 20.0
+        },
+        {
+          "cell": "Q16",
+          "value": 4.66988727858293
+        },
+        {
+          "cell": "Q17",
+          "value": 2.2549019607843146
+        },
+        {
+          "cell": "Q18",
+          "value": 20.34739454094293
+        },
+        {
+          "cell": "Q19",
+          "value": -0.5128205128205128
+        },
+        {
+          "cell": "Q20",
+          "value": -7.12430426716141
+        }
+      ]
+    },
+    {
+      "paper": "Kaldun et al. 2021",
+      "figure": "3C",
+      "source_sheet": "Figure 3",
+      "source_range": "Q23:Q30",
+      "source_mean_cell": "R23",
+      "source_sem_cell": "S23",
+      "source_genotype_cell": "O23",
+      "genotype_verbatim": "c150-Gal4, MB-Gal80ts; UAS-shi, mb247-lexA,lexAop-Arc",
+      "age_days": [
+        7,
+        9
+      ],
+      "sex": "mixed",
+      "assay": "appetitive",
+      "retention_hours_label": 6,
+      "immediate_test_note": "0 h denotes about 3 min after training in aversive protocol; not instantaneous",
+      "intervention": "2 h at 30 C immediately after training, then 4 h at 21–22 C",
+      "proposed_use": "held-out intervention candidate; different driver from Figure 1",
+      "unit": "behavioral performance index points (scale -100 to 100)",
+      "experimental_unit": "experiment combining two reciprocal conditioning groups; 50–100 flies per group",
+      "n_experiments": 8,
+      "mean": 24.471842469147862,
+      "sem": 3.7113081532941834,
+      "uncertainty": "SEM recomputed from experiment-level observations; not a 95% interval or individual-fly uncertainty",
+      "observations": [
+        {
+          "cell": "Q23",
+          "value": 41.70212765957447
+        },
+        {
+          "cell": "Q24",
+          "value": 21.04175279040926
+        },
+        {
+          "cell": "Q25",
+          "value": 15.939278937381404
+        },
+        {
+          "cell": "Q26",
+          "value": 21.305418719211822
+        },
+        {
+          "cell": "Q27",
+          "value": 16.337719298245617
+        },
+        {
+          "cell": "Q28",
+          "value": 34.81132075471698
+        },
+        {
+          "cell": "Q29",
+          "value": 32.25616921269095
+        },
+        {
+          "cell": "Q30",
+          "value": 12.380952380952383
+        }
+      ]
+    }
+  ]
+}

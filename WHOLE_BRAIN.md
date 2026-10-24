@@ -2,6 +2,13 @@
 
 ## Current: MaleCNS v1.0
 
+The latest completed study uses the published adfly engine and a Brian2 comparator:
+[component-assay results](results/amyloid_reference_components/report.md),
+[chart](results/amyloid_reference_components/comparison.png), and
+[reference setup](research/REFERENCE_REPRODUCTION.md). It runs all 166,700 cells
+with separate excitability, contact-loss and cell-silencing conditions. The LC4
+setup below is the earlier technical baseline.
+
 The official Google Research/Janelia MaleCNS dataset includes both brain and
 ventral nerve cord. See [SOURCE_REVIEW.md](SOURCE_REVIEW.md) for the distinction
 between this dataset, DeepMind's Flybody, and the linked mouse project.
