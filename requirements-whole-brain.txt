@@ -1,0 +1,9 @@
+# Tested with Python 3.10; separate from the reduced memory model environment.
+brian2==2.6.0
+numpy==1.23.2
+pandas==2.2.3
+pyarrow==17.0.0
+joblib==1.4.2
+sympy==1.13.3
+matplotlib==3.8.1
+pytest>=7,<9

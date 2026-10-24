@@ -1,5 +1,16 @@
 # Fly-Stroke: fly memory experiment
 
+The current whole-network work uses the **MaleCNS v1.0 brain and ventral nerve
+cord dataset** announced by Google Research and Janelia in September 2026.
+See [source review](SOURCE_REVIEW.md) and [whole-network setup](WHOLE_BRAIN.md).
+This is a technical baseline with transferred neuron dynamics, not a validated
+Alzheimer's model. Earlier results below remain separate.
+
+The first MaleCNS run is complete: [report](results/malecns_baseline/report.md)
+and [chart](results/malecns_baseline/comparison.png). It exercises 166,700 neurons
+over three paired seeds per condition; the 100 ms trials establish technical
+operation and generic weight sensitivity only.
+
 The first computational pilot has run. Read [results/report.md](results/report.md) and view [the compact result](results/memory_vs_response.png).
 
 The implementation reproduces a published reduced memory-circuit model and explores disturbances during learning, waiting and recall. It does not simulate a complete fruit fly or establish a human Alzheimer's mechanism.
@@ -24,7 +35,9 @@ For an existing clone, first run `git submodule update --init --recursive`. The 
 
 The repository currently studies memory-circuit disturbances motivated by Alzheimer's research. A stroke model has not been implemented.
 
-The complete-brain extension is documented in [WHOLE_BRAIN.md](WHOLE_BRAIN.md). It uses the published 138,639-neuron FlyWire model and compares healthy and explicitly exploratory Alzheimer’s-inspired perturbations.
+The earlier 138,639-neuron FlyWire run is retained under `results/full_brain/` as
+a 10 ms construction check. Its zero-versus-one-spike outputs support no disease
+conclusion. Use the new MaleCNS runner for current work.
 
 The baseline check compares 1,944 saved reference values. The experiment uses the authors' fitted parameters rather than refitting them. Configuration, sampled parameter indices, source commit and hashes are recorded with the results. See [METHODS.md](METHODS.md) for definitions and limitations.
 
